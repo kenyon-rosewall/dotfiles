@@ -1,0 +1,26 @@
+#!/bin/bash
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+
+MAIN_GITCONFIG="$XDG_CONFIG_HOME/git/config"
+LEGACY_GITCONFIG="$HOME/.gitconfig"
+BACKUP_GITCONFIG="$HOME/gitconfig.bak"
+
+if [ -f "$MAIN_GITCONFIG" ]; then
+  echo "Backing up $MAIN_GITCONFIG to $BACKUP_GITCONFIG"
+  cp "$MAIN_GITCONFIG" "$BACKUP_GITCONFIG"
+elif [ -L "$LEGACY_GITCONFIG" ]; then
+elif [ -f "$LEGACY_GITCONFIG" ]; then
+  echo "Backing up legacy $LEGACY_GITCONFIG to $BACKUP_GITCONFIG"
+  cp "$LEGACY_GITCONFIG" "$BACKUP_GITCONFIG"
+fi
+
+# GIT
+rm -rf "$XDG_CONFIG_HOME/git"
+rm -f "$HOME/.gitconfig"
+
+# VIM
+rm -rf "$XDG_CONFIG_HOME/vim"
+
+# TMUX
+rm -rf "$XDG_CONFIG_HOME/tmux"
+rm -f "$HOME/.tmux.conf"

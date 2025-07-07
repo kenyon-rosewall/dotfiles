@@ -1,0 +1,85 @@
+" XDG compliance
+set runtimepath^=$XDG_CONFIG_HOME/vim
+set runtimepath+=$XDG_CONFIG_HOME/vim/after
+set packpath^=$XDG_DATA_HOME/vim
+set packpath+=$XDG_DATA_HOME/vim/after
+set backupdir=$XDG_CACHE_HOME/vim/backup//
+set directory=$XDG_CACHE_HOME/vim/swap//
+set undodir=$XDG_CACHE_HOME/vim/undo//
+set viewdir=$XDG_CACHE_HOME/vim/view//
+set viminfofile=$XDG_CACHE_HOME/vim/viminfo
+set backup
+set swapfile
+set undofile
+
+" Disable compatibility with vi which can cause unexpected issues.
+set nocompatible
+
+" Turn syntax highlighting on.
+syntax on
+
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
+
+" Show line numbers.
+set number
+set relativenumber
+
+" Show file stats.
+set ruler
+
+" Encoding.
+set encoding=utf-8
+
+" Security.
+set modelines=0
+
+" Show color column at 80 characters width, visual reminder of keepingcode line within a popular line width.
+set colorcolumn=80
+
+" Whitespace.
+set nowrap
+set autoindent
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+autocmd FileType * setlocal shiftwidth=2 tabstop=2 expandtab
+
+" Search
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+
+" Do not let cursor scroll below or above N number of lines when scrolling
+set scrolloff=6
+
+" Enable mouse
+set mouse=a
+
+" Allow hidden buffers.
+set hidden
+
+" Rendering.
+set ttyfast
+
+" Last line.
+set showmode
+set showcmd
+
+" Set the commands to save in history default number is 20
+set history=1000
+
+set termguicolors
+colorscheme murphy
+
+" ========
+" MAPPINGS
+" ========
+
+" Quickly exit INSERT mode
+inoremap jj <Esc>
+vnoremap <C-y> "+y
+
