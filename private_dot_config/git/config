@@ -1,0 +1,46 @@
+[user]
+    name = Kenyon R
+    email = pgurugp@gmail.com
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = vim
+    pager = less
+    excludesFile = ~/.config/git/ignore
+
+[merge]
+    tool = vimdiff
+
+[diff]
+    tool = vimdiff
+
+[color]
+    ui = auto
+    status = auto
+    diff = auto
+    branch = auto
+
+[push]
+    default = current
+
+[pull]
+    rebase = false
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate --all
+    rb = rebase
+    amend = commit --amend
+    type = cat-file -t
+    dump = cat-file -p
+    rmtag = "!f() { git tag -d \"$1\" && git push origin :refs/tags/\"$1\"; }; f"
+
+[credential]
+    helper =
+
+
