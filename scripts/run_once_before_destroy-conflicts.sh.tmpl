@@ -9,6 +9,7 @@ if [ -f "$MAIN_GITCONFIG" ]; then
   echo "Backing up $MAIN_GITCONFIG to $BACKUP_GITCONFIG"
   cp "$MAIN_GITCONFIG" "$BACKUP_GITCONFIG"
 elif [ -L "$LEGACY_GITCONFIG" ]; then
+  echo ""
 elif [ -f "$LEGACY_GITCONFIG" ]; then
   echo "Backing up legacy $LEGACY_GITCONFIG to $BACKUP_GITCONFIG"
   cp "$LEGACY_GITCONFIG" "$BACKUP_GITCONFIG"

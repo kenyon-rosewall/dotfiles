@@ -43,4 +43,6 @@
 [credential]
     helper =
 
+[include]
+  path = *.gitconfig ; Include any file ending in .gitconfig in config folder
 
