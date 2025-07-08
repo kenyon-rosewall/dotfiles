@@ -1,0 +1,4054 @@
+: 1751581988:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k\
+
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;p10k configure
+: 1751581988:0;sourc ~/.zshrc
+: 1751581988:0;source ~/.zshrc
+: 1751581988:0;vim ~/.zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1751581988:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting\
+
+: 1751581988:0;git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+: 1751581988:0;git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions\
+
+: 1751581988:0;vim .zshrc
+: 1751581988:0;vim ~/.p10k.zsh
+: 1751581988:0;source .zshrc
+: 1751581988:0;p10k configure
+: 1751581988:0;curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash\
+
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;echo $SHELL
+: 1751581988:0;source .zshrc
+: 1751581988:0;sudo pacman -S fzf
+: 1751581988:0;source .zshrc
+: 1751581988:0;z vim
+: 1751581988:0;curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash\
+
+: 1751581988:0;zoxide
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;zoxide
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;z vim
+: 1751581988:0;z Documents
+: 1751581988:0;~
+: 1751581988:0;..
+: 1751581988:0;~
+: 1751581988:0;fd vimrc
+: 1751581988:0;sudo pacman -S fd-find
+: 1751581988:0;sudo pacman -S fd
+: 1751581988:0;fd vimrc
+: 1751581988:0;which fd
+: 1751581988:0;fd README
+: 1751581988:0;fd .zshrc
+: 1751581988:0;fd .zshrc ~/
+: 1751581988:0;rm ~/.zcompdump*
+: 1751581988:0;compinit
+: 1751581988:0;fd zshrc
+: 1751581988:0;fd . zshrc
+: 1751581988:0;fd zshrc .
+: 1751581988:0;fd vimrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;mkdir -p ~/.local/share/fonts/NerdFonts
+: 1751581988:0;cd .local/share/fonts/NerdFonts
+: 1751581988:0;wget -O Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip\
+
+: 1751581988:0;unzip Hack.zip
+: 1751581988:0;rm Hack.zip
+: 1751581988:0;fc-cache -fv
+: 1751581988:0;fc-list 
+: 1751581988:0;fc-list | grep "Hack"
+: 1751581988:0;~
+: 1751581988:0;vim .config/alacritty/alacritty.toml
+: 1751581988:0;p10k configure
+: 1751581988:0;source .zshrc
+: 1751581988:0;cat | od -An -tx1
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;cat | od -An -tx1
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;date
+: 1751581988:0;timedatectl status
+: 1751581988:0;sudo timedatctl set-ntp true
+: 1751581988:0;sudo timedatectl set-ntp true
+: 1751581988:0;timedatectl status
+: 1751581988:0;sudo systemctl enabl --now systemd-timesynced.service
+: 1751581988:0;sudo systemctl enable --now systemd-timesynced.service
+: 1751581988:0;sudo systemctl enable --now systemd-timesyncd.service
+: 1751581988:0;sudo timedatctl set-ntp false
+: 1751581988:0;sudo timedatectl set-ntp false
+: 1751581988:0;sudo timedatectl set-ntp true
+: 1751581988:0;sudo vim /etc/systemd/timesyncd.conf
+: 1751581988:0;sudo systmectl restart systemd-timesyncd
+: 1751581988:0;sudo systemctl restart systemd-timesyncd.service
+: 1751581988:0;timedatectl show-timesync --all
+: 1751581988:0;sudo pacman -S rclone
+: 1751581988:0;rclone config
+: 1751581988:0;cat .config/rclone/rclone.conf
+: 1751581988:0;rclone lsd dropbox:
+: 1751581988:0;vim ~/.local/bin/rclone-mount-dropbox
+: 1751581988:0;chmod +x .local/bin/rclone-mount-dropbox
+: 1751581988:0;mkdir -p ~/.config/systemd/user
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user enable --now rclone-dropbox.service
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;journalctl --user -xeu rclone-dropbox.service
+: 1751581988:0;mkdir -p /mnt/dropbox
+: 1751581988:0;ls /mnt
+: 1751581988:0;mkdir -p ~/.mounts/dropbox
+: 1751581988:0;vim .local/bin/rclone-mount-dropbox
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;cat .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user enable --now rclone-dropbox.service
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;journalctl --user -xeu rclone-dropbox.service
+: 1751581988:0;ls -ld ~/.mounts ~/.mounts/dropbox
+: 1751581988:0;.local/bin/rclone-mount-dropbox
+: 1751581988:0;sudo pacman -S fuse3
+: 1751581988:0;setxkbmap us dvorak
+: 1751581988:0;vim ~/.config/i3/config
+: 1751581988:0;sudo vim /etc/X11/xorg.conf.d/00-keyboard.conf
+: 1751581988:0;sudo localectl set-keymap dvorak
+: 1751581988:0;vim .local/bin/rclone-mount-dropbox\
+
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;cd ~
+: 1751581988:0;vim .local/bin/rclone-mount-dropbox\
+
+: 1751581988:0;.local/bin/rclone-mount-dropbox
+: 1751581988:0;ls -ld ~/.mounts ~/.mounts/dropbox
+: 1751581988:0;fusermount -u .mounts/dropbox
+: 1751581988:0;zsh: command not found: fusermount
+: 1751581988:0;fusermount3 -u ~/.mounts/dropbox
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;ls .mounts/dropbox
+: 1751581988:0;.local/bin/rclone-mount-dropbox
+: 1751581988:0;fusermount3 -u ~/.mounts/dropbox
+: 1751581988:0;.local/bin/rclone-mount-dropbox
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;cd .mounts/dropbox
+: 1751581988:0;ls
+: 1751581988:0;chmod 600 ~/.config/rclone/rclone.conf
+: 1751581988:0;mkdir -p ~/.config/systemd/user
+: 1751581988:0;vim ~/.config/systemd/user/rclone-refresh.service
+: 1751581988:0;~
+: 1751581988:0;vim .config/systemd/user/rclone-refresh.timer
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user enable --now rclone-refresh.time
+: 1751581988:0;systemctl --user enable --now rclone-refresh.timer
+: 1751581988:0;systemctl --user list-timers
+: 1751581988:0;sudo pacman -S thunar gvfs gvfs-mtp gvfs-gphoto2 gvfs-smb
+: 1751581988:0;sudo localectl set-keymap dvorak
+: 1751581988:0;setxkbmap us dvorak
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;_
+: 1751581988:0;sudo pacman -S strawberry
+: 1751581988:0;setxkbmap us dvorak
+: 1751581988:0;sudo pacman -S textview
+: 1751581988:0;pacman -Ss textview
+: 1751581988:0;sudo pacman -S mousepad
+: 1751581988:0;sudo pacman -S imagemagick
+: 1751581988:0;cd Downloads
+: 1751581988:0;convert LS044\ -\ Can\'t\ Buy\ Me\ Love\ Lecture\ Series.png -resize 50% -strip -quality 90 LS044.png
+: 1751581988:0;convert LS044\ -\ Can\'t\ Buy\ Me\ Love\ Lecture\ Series.png -resize 50% -strip -quality 80 LS044.png
+: 1751581988:0;convert LS044\ -\ Can\'t\ Buy\ Me\ Love\ Lecture\ Series.png -resize 40% -strip -quality 90 LS044.png
+: 1751581988:0;git clone https://aur.archlinux.org/yay.git
+: 1751581988:0;cd yay
+: 1751581988:0;makepkg -si
+: 1751581988:0;sudo pacman -S jdk-openjdk
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf yay
+: 1751581988:0;yay -S minecraft-launcher
+: 1751581988:0;sudo vim /etc/pacman.conf
+: 1751581988:0;sudo pacman -Sy
+: 1751581988:0;sudo pacman -S steam
+: 1751581988:0;sudo pacman -S lib32-nvidia-utils
+: 1751581988:0;sudo pacman -Syu
+: 1751581988:0;sudo pacman -S steam lib32-nvidia-utils
+: 1751581988:0;steam
+: 1751581988:0;pkill -f steam
+: 1751581988:0;steam
+: 1751581988:0;sudo pacman -S steam-native-runtime
+: 1751581988:0;steam-native
+: 1751581988:0;pkill -f steam
+: 1751581988:0;steam-native
+: 1751581988:0;pkill -f steam
+: 1751581988:0;rm -rf ~/.steam/steam.pid
+: 1751581988:0;ps aux | grep steam
+: 1751581988:0;fd steam
+: 1751581988:0;fd steam.pid
+: 1751581988:0;fd config
+: 1751581988:0;steam-native
+: 1751581988:0;__GL_MaxFramesAllowed=1 \\
+GDK_SCALE=1 \\
+GDK_DPI_SCALE=1 \\
+steam\
+
+: 1751581988:0;__GL_MaxFramesAllowed=1 \\
+GDK_SCALE=1 \\
+GDK_DPI_SCALE=1 \\
+steam-native\
+
+: 1751581988:0;GDK_SCALE=1 GDK_DPI_SCALE=1 \\
+Xft.dpi=96 \\
+steam\
+
+: 1751581988:0;echo $DISPLAY
+: 1751581988:0;echo $XAUTHORITY
+: 1751581988:0;export XAUTHORITY=$HOME/.Xauthority
+: 1751581988:0;steam
+: 1751581988:0;steam-native
+: 1751581988:0;steam -tenfoot
+: 1751581988:0;LIBGL_ALWAYS_SOFTWARE=1 steam\
+
+: 1751581988:0;pacman -Qs nvidia
+: 1751581988:0;gamescope -f -- steam
+: 1751581988:0;sudo pacman -S gamescope
+: 1751581988:0;gamescope -- steam
+: 1751581988:0;sudo pacman -S vulkan-icd-loader lib32-vulkan-icd-loader \\
+                 vulkan-tools lib32-vulkan-tools\
+
+: 1751581988:0;sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader\
+
+: 1751581988:0;vulkaninfo
+: 1751581988:0;lsmod  | grep nvidia
+: 1751581988:0;nvidia-smi
+: 1751581988:0;sudo reboot
+: 1751581988:0;steam
+: 1751581988:0;cd /shared
+: 1751581988:0;ls
+: 1751581988:0;sudo vim /etc/pacman.conf
+: 1751581988:0;sudo pacman -Sy yaourt
+: 1751581988:0;sudo vim /etc/pacman.conf
+: 1751581988:0;sudo pacman -Sy yaourt
+: 1751581988:0;pacman -S ranger
+: 1751581988:0;sudo pacman -S ranger
+: 1751581988:0;ranger
+: 1751581988:0;sudo pacman -S protonup-qt
+: 1751581988:0;vulkaninfo | grep deviceName
+: 1751581988:0;fd steam.log
+: 1751581988:0;cd ~/.steam
+: 1751581988:0;/-
+: 1751581988:0;ls
+: 1751581988:0;cd steam
+: 1751581988:0;ls
+: 1751581988:0;cd logs
+: 1751581988:0;ls
+: 1751581988:0;tail -f ~/.steam/steam/logs/compat_log.txt
+: 1751581988:0;steam
+: 1751581988:0;~
+: 1751581988:0;mkdir -p ~/.steam/root/compatibilitytools.d
+: 1751581988:0;cd ~/.steam/root/compatibilitytools.d\
+wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-25/GE-Proton8-25.tar.gz\
+
+: 1751581988:0;tar -xvzf GE-Proton8-25.tar.gz
+: 1751581988:0;rm GE-Proton8-25.tar.gz
+: 1751581988:0;cd ~
+: 1751581988:0;sudo pacman -S protontricks
+: 1751581988:0;cd Downloads
+: 1751581988:0;ls
+: 1751581988:0;cd Cockos.REAPER.v7.25.Linux.x64-BTCR
+: 1751581988:0;ls
+: 1751581988:0;less btcr.nfo
+: 1751581988:0;7z
+: 1751581988:0;ls
+: 1751581988:0;7z x *.zip
+: 1751581988:0;ls
+: 1751581988:0;7z x bt723901.zip
+: 1751581988:0;ls
+: 1751581988:0;7z x bt723902.zip
+: 1751581988:0;ls
+: 1751581988:0;7z x bt723901.zip
+: 1751581988:0;ls
+: 1751581988:0;7z x bt723903.zip
+: 1751581988:0;ls
+: 1751581988:0;7z x btcr.rar
+: 1751581988:0;ls
+: 1751581988:0;cd BTCR
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;tar -xvzf reaper725_linux_x86_64.tar.xz
+: 1751581988:0;tar -xf reaper725_linux_x86_64.tar.xz
+: 1751581988:0;ls
+: 1751581988:0;cd reaper725_linux_x86_64
+: 1751581988:0;ls
+: 1751581988:0;cd reaper_linux_x86_64
+: 1751581988:0;ls
+: 1751581988:0;ll
+: 1751581988:0;less readme-linux.txt
+: 1751581988:0;sudo pacman -Qi glibc gcc-libs
+: 1751581988:0;sudo pacman -S gtk3
+: 1751581988:0;sudo pacman -S alsa-lib alsa-utils
+: 1751581988:0;sudo pacman -S jack2 qjackctl
+: 1751581988:0;sudo pacman -Qi pulseaudio
+: 1751581988:0;sudo pacman -S pulseaudio
+: 1751581988:0;sudo pacman -S pipewire pipewire-pulse
+: 1751581988:0;sudo pacman -S lame
+: 1751581988:0;sudo pacman -S ffmpeg
+: 1751581988:0;vlc
+: 1751581988:0;sudo pacman -S vlc
+: 1751581988:0;ldd reaper | grep "not found"
+: 1751581988:0;ls
+: 1751581988:0;cd REAPER
+: 1751581988:0;ls
+: 1751581988:0;ldd reaper | grep "not found"
+: 1751581988:0;./reaper
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;./install-reaper.sh
+: 1751581988:0;pacman -Qdt
+: 1751581988:0;pacman -Qe
+: 1751581988:0;cd ~
+: 1751581988:0;ls
+: 1751581988:0;cd Downloads
+: 1751581988:0;lsn
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;fd Buy
+: 1751581988:0;fd buy
+: 1751581988:0;fd .bashrc
+: 1751581988:0;mpv
+: 1751581988:0;sudo pacman -S feh
+: 1751581988:0;vim .local/bin/set-random-wallpaper
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;chmod +x .local/bin/set-random-wallpaper
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;z bin
+: 1751581988:0;chmod +x .local/bin/set-random-wallpaper
+: 1751581988:0;vim .local/bin/set-random-wallpaper\
+
+: 1751581988:0;sudo pacman -S i3blocks
+: 1751581988:0;vim .config/i3/config\
+
+: 1751581988:0;mkdir -p ~/.config/i3blocks
+: 1751581988:0;cp /etc/i3blocks.conf ~/.config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/net.sh
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;vim .config/i3blocks/strawberry.sh
+: 1751581988:0;vim .config/i3blocks/quote.sh
+: 1751581988:0;chmod +x .config/i3blocks/*.sh
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;cat .config/alacritty/alacritty.toml
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;sudo pacman -S nerd-fonts
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;fc-cache -fv
+: 1751581988:0;sudo pacman -S waybar
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;mkdir -p ~/.config/waybar
+: 1751581988:0;cp /etc/xdg/waybar/config.jsonc ~/.config/waybar/config
+: 1751581988:0;cp /etc/xdg/waybar/style.css ~/.config/waybar/style.css
+: 1751581988:0;vim .config/waybar/style.css
+: 1751581988:0;vim ~/.config/waybar/config
+: 1751581988:0;mkdir -p ~/.config/waybar/scripts
+: 1751581988:0;vim ~/.config/waybar/scripts/strawberry.sh
+: 1751581988:0;chmod +x .config/waybar/scripts/strawberry.sh
+: 1751581988:0;vim .config/waybar/style.css
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;pgrep waybar
+: 1751581988:0;waybar
+: 1751581988:0;sudo pacman -Rns waybar
+: 1751581988:0;yay -S waybar
+: 1751581988:0;waybar
+: 1751581988:0;yay -Rns waybar
+: 1751581988:0;mkdir -p ~/.config/polybar/scripts
+: 1751581988:0;vim ~/.config/polybar/scripts/strawberry.sh
+: 1751581988:0;vim ~/.config/polybar/config
+: 1751581988:0;vim ~/.config/polybar/scripts/strawberry.sh
+: 1751581988:0;chmod +x .config/polybar/scripts/strawberry.sh
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;chmod +x .config/polybar/launch.sh
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;ip link
+: 1751581988:0;vim .config/polybar/config
+: 1751581988:0;cat .config/polybar/launch.sh
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;sudo pacman -S polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;mv .config/polybar/config .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;xrandr --query | grep " connected"
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;pkill -f polybar
+: 1751581988:0;sudo pacman -S ttf-jetbrains-mono-nerd noto-fonts-emoji
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;pkill -f polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;pkill -f polybar
+: 1751581988:0;yay -S nerd-fonts-fira-code
+: 1751581988:0;shutdown now
+: 1751581988:0;yay -S plexamp
+: 1751581988:0;yay -S signal-desktop
+: 1751581988:0;pactl list short sinks
+: 1751581988:0;pw-cli ls Node | grep -i audio
+: 1751581988:0;sudo pacmon -S qpwgraph
+: 1751581988:0;sudo pacman -S qpwgraph
+: 1751581988:0;sudo pacman -S alsa-tools
+: 1751581988:0;hdspmixer
+: 1751581988:0;aplay -l
+: 1751581988:0;aplay -l | less
+: 1751581988:0;sudo pacman -S qasmixer
+: 1751581988:0;alsamixer -c 2
+: 1751581988:0;pw-dump | grep -i '"nick":'
+: 1751581988:0;pw-dump
+: 1751581988:0;pw-dump | grep -i '"type":'
+: 1751581988:0;pw-dump
+: 1751581988:0;pw-dump | grep -i 'AudioBox'
+: 1751581988:0;pw-dump | grep -i '"node.nick":'
+: 1751581988:0;pw-cli ls Node | grep -B 10 "AudioBox 1818 VSL"
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;i3 --version
+: 1751581988:0;sudo pacman -S i3-gaps
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;vim .config/i3blocks/strawberry.sh
+: 1751581988:0;i3-msg restart
+: 1751581988:0;dbus-send --session --dest=arg.freedesktop.DBus \\
+--type=method_call --print-reply \\
+/org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep mpris
+: 1751581988:0;dbus-send --session --dest=org.freedesktop.DBus \\
+--type=method_call --print-reply \\
+/org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep mpris
+: 1751581988:0;vim .config/i3blocks/strawberry.sh
+: 1751581988:0;artist=$(echo "$metadata" | awk '\
+  /string "xesam:artist"/ {found=1; next}\
+  found && /string/ {print; found=0}\
+' | sed 's/.*string "\(.*\)"/\1/')
+: 1751581988:0;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.Plexamp \\
+  /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get \\
+  string:"org.mpris.MediaPlayer2.Player" string:"Metadata"\
+
+: 1751581988:0;vim .config/i3blocks/strawberry.sh
+: 1751581988:0;mv .config/i3blocks/strawberry.sh .config/i3blocks/music.sh
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;bw get password microsoft | c
+: 1751581988:0;yay -S bitwarden-cli
+: 1751581988:0;bw
+: 1751581988:0;bw login
+: 1751581988:0;bw get password microsoft | c
+: 1751581988:0;bw get password microsoftmain 
+: 1751581988:0;bw
+: 1751581988:0;bw list items --search microsoftmain
+: 1751581988:0;bw list items --search microsoft
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source  
+: 1751581988:0;source .zshrc
+: 1751581988:0;pkill -f minecraft
+: 1751581988:0;ps aux | grep minecraft
+: 1751581988:0;pkill -f minecraft-launcher
+: 1751581988:0;ps aux | grep minecraft
+: 1751581988:0;xdg-settings get default-web-browser
+: 1751581988:0;ls /usr/share/applications/ | grep -i browser
+: 1751581988:0;ls /usr/share/applications/ | grep -i librewolf
+: 1751581988:0;xdg-settings set default-web-browser librewolf
+: 1751581988:0;xdg-settings --help
+: 1751581988:0;xdg-settings get default-web-browser
+: 1751581988:0;xdg-settings set default-web-browser /usr/share/applications/librewolf.desktop
+: 1751581988:0;xdg-settings set default-web-browser librewolf.desktop
+: 1751581988:0;xdg-open default-web-browser
+: 1751581988:0;xdg-open 
+: 1751581988:0;xdg-open https://www.google.com
+: 1751581988:0;sudo reboot
+: 1751581988:0;sudo pacman -S gnome-keyring
+: 1751581988:0;sudo reboot
+: 1751581988:0;pgrep -af gnome-keyring-daemon
+: 1751581988:0;systemctl --user status gnome-keyring-daemon.service
+: 1751581988:0;systemctl --user enable gnome-keyring-daemon.service
+: 1751581988:0;systemctl --user start gnome-keyring-daemon.service
+: 1751581988:0;systemctl --user status gnome-keyring-daemon.s
+: 1751581988:0;systemctl --user status gnome-keyring-daemon.service
+: 1751581988:0;vim .config/i3/config\
+
+: 1751581988:0;bw
+: 1751581988:0;bw list items --search microsoft
+: 1751581988:0;cd Downloads
+: 1751581988:0;ls
+: 1751581988:0;7z x NN_DELIVERY.zip
+: 1751581988:0;yay -S cryptomator
+: 1751581988:0;bw get password sharing 
+: 1751581988:0;vaults
+: 1751581988:0;bw get password myfiles | c
+: 1751581988:0;bw get password myfiles
+: 1751581988:0;sudo pacman -S sxiv
+: 1751581988:0;sudo pacman -S yt-dlp
+: 1751581988:0;cd /shared
+: 1751581988:0;ls
+: 1751581988:0;cd Music
+: 1751581988:0;ls
+: 1751581988:0;mkdir Podcast
+: 1751581988:0;cd Podcast
+: 1751581988:0;l
+: 1751581988:0;ls
+: 1751581988:0;vim .local/bin/ytget
+: 1751581988:0;vim ~/.local/bin/ytgut
+: 1751581988:0;vim ~/.local/bin/ytget
+: 1751581988:0;chmod +x ~/.local/bin/ytget
+: 1751581988:0;ytget https://www.youtube.com/watch\?v\=PJ82fddsMzU
+: 1751581988:0;vim ~/.local/bin/ytget
+: 1751581988:0;sudo pacman -S geeqie
+: 1751581988:0;sudo pacman -Rns sxiv
+: 1751581988:0;sudo pacman -Rns geeqie
+: 1751581988:0;pacman -S nomacs
+: 1751581988:0;sudo pacman -S nomacs
+: 1751581988:0;sudo pacman -S shotwell
+: 1751581988:0;sudo shutdown now
+: 1751581988:0;ytget https://www.youtube.com/watch\?v\=tIIufQKM2K0
+: 1751581988:0;sudo shutdown now 
+: 1751581988:0;pactl info | grep "Server Name"\\
+
+: 1751581988:0;pactl info | grep "Server Name"\
+
+: 1751581988:0;pavucontrol
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;sudo reboot
+: 1751581988:0;pkill -f reaper
+: 1751581988:0;reaper
+: 1751581988:0;ping google.com
+: 1751581988:0;sudo reboot
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;ls .config/i3
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;chmod +x ~/.config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;sudo pacman -S jq
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;./.config/i3/toggle_tabbed.sh
+: 1751581988:0;chmod +x ~/.config/i3/toggle_tabbed.sh
+: 1751581988:0;./.config/i3/toggle_tabbed.sh
+: 1751581988:0;i3-msg layout default
+: 1751581988:0;i3-msg layout tabbed
+: 1751581988:0;i3-msg layout default
+: 1751581988:0;i3-msg -t get_tree | jq -r '\
+  recurse(.nodes[]?) \
+  | select(.type == "workspace" and .focused == true) \
+  | .layout'\
+
+: 1751581988:0;i3-msg -t get_tree | jq '\
+  recurse(.nodes[]?) \
+  | select(.type == "workspace" and .focused == true)\
+'
+: 1751581988:0;i3-msg -t get_tree
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/toggle_tabbed.sh
+: 1751581988:0;.config/i3/toggle_tabbed.sh
+: 1751581988:0;i3-msg layout toggle split tabbed\
+
+: 1751581988:0;i3-msg layout toggle tabbed\
+
+: 1751581988:0;i3-msg layout toggle default tabbed\
+
+: 1751581988:0;i3-msg layout toggle tabbed default\
+
+: 1751581988:0;i3-msg layout toggle default\
+
+: 1751581988:0;i3-msg -t get_tree | jq -r '\
+  recurse(.nodes[]?) \
+  | select(.focused == true) \
+  | .layout'
+: 1751581988:0;i3-msg layout toggle default\
+
+: 1751581988:0;i3-msg -t get_tree | jq -r '\
+  recurse(.nodes[]?) \
+  | select(.focused == true) \
+  | .layout'
+: 1751581988:0;i3-msg layout toggle default\
+
+: 1751581988:0;i3-msg -t get_tree | jq -r '\
+  recurse(.nodes[]?) \
+  | select(.focused == true) \
+  | .layout'
+: 1751581988:0;i3-msg -t get_tree | c
+: 1751581988:0;xclip
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;i3-msg -t get_tree | c
+: 1751581988:0;i3-msg layout toggle default\
+
+: 1751581988:0;i3-msg -t get_tree | c
+: 1751581988:0;rm .config/i3/toggle_tabbed.sh
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;sudo shutdown now 
+: 1751581988:0;sudo pacman -S scalculator
+: 1751581988:0;git clone https://aur.archlinux.org/scalculator.git
+: 1751581988:0;cd scalculator
+: 1751581988:0;makepkg -si
+: 1751581988:0;yay -S scalculator
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf scalculator
+: 1751581988:0;ls
+: 1751581988:0;sudo pacman -S gnome-calculator
+: 1751581988:0;mount | grep dropbox
+: 1751581988:0;rclone lsd dropbox:
+: 1751581988:0;rclone lsd dropbox:The Beatles Note By Note/Resources
+: 1751581988:0;rclone lsd dropbox:The\ Beatles\ Note\ By\ Note/Resources
+: 1751581988:0;ls .mounts/dropbox/The\ Beatles\ Note\ By\ Note/Resources
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;systemctl --user stop rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;vim .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;systemctl --user daemon-reexec
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;sudo shutdown now 
+: 1751581988:0;pip
+: 1751581988:0;pip3
+: 1751581988:0;python
+: 1751581988:0;python --version
+: 1751581988:0;pip --version
+: 1751581988:0;sudo pacman -S python
+: 1751581988:0;pip --version
+: 1751581988:0;sudo pacman -S python-pip
+: 1751581988:0;pip --version\
+
+: 1751581988:0;pip install anstaloader
+: 1751581988:0;mkdir -p code/igdownloader
+: 1751581988:0;cd code/igdownloader
+: 1751581988:0;pip install instaloader
+: 1751581988:0;sudo pacman -S python-pipx
+: 1751581988:0;pipx ensurepath
+: 1751581988:0;pipx install instaloader
+: 1751581988:0;instaloader --version
+: 1751581988:0;instaloader --login=notebynoteseries
+: 1751581988:0;vim main.py
+: 1751581988:0;pwd
+: 1751581988:0;cd Pictures
+: 1751581988:0;ls
+: 1751581988:0;mkdir Beatles
+: 1751581988:0;cd ..
+: 1751581988:0;mv igdownloader dlig
+: 1751581988:0;cd dlig
+: 1751581988:0;mv main.py dlig.py
+: 1751581988:0;vim dlig.py
+: 1751581988:0;cd ~/.local/bin
+: 1751581988:0;z
+: 1751581988:0;z dlig
+: 1751581988:0;chmod +x dlig.py
+: 1751581988:0;z bin
+: 1751581988:0;z dlig
+: 1751581988:0;mv dlig.py dlig
+: 1751581988:0;vim dlig
+: 1751581988:0;which python
+: 1751581988:0;which env
+: 1751581988:0;type -a env
+: 1751581988:0;echo $PATH
+: 1751581988:0;vim .zshr
+: 1751581988:0;vim .zshrc
+: 1751581988:0;~
+: 1751581988:0;vim .zshrc
+: 1751581988:0;cd .local/bin
+: 1751581988:0;cd ~/.local/bin
+: 1751581988:0;ln -s ~/code/dlig/dlig dlig
+: 1751581988:0;dlig
+: 1751581988:0;cd code/dlig
+: 1751581988:0;ls
+: 1751581988:0;ls -a
+: 1751581988:0;ls ~/.local/bin
+: 1751581988:0;rm dlig
+: 1751581988:0;/-
+: 1751581988:0;ls
+: 1751581988:0;cd ~/.local/bin
+: 1751581988:0;rm dlig
+: 1751581988:0;cd ~/code/dlig
+: 1751581988:0;vim dlig
+: 1751581988:0;mv dlig dlig.py
+: 1751581988:0;vim dlig.py
+: 1751581988:0;vim dlig
+: 1751581988:0;chmod +x dlig
+: 1751581988:0;ln -s ~/code/dlig/dlig ~/.local/bin/dlig
+: 1751581988:0;blig
+: 1751581988:0;dlig
+: 1751581988:0;vim dlig
+: 1751581988:0;dlig
+: 1751581988:0;pipx list
+: 1751581988:0;vim dlig
+: 1751581988:0;z
+: 1751581988:0;dlig
+: 1751581988:0;vim dlig
+: 1751581988:0;dlig
+: 1751581988:0;dlig https://www.instagram.com/p/CDE-NAmnxKk/
+: 1751581988:0;rm .config/instaloader/session-notebynoteseries
+: 1751581988:0;instaloader --login=notebynoteseries
+: 1751581988:0;dlig https://www.instagram.com/p/CDE-NAmnxKk/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/CDE-NAmnxKk/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/CDE-NAmnxKk/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/CDE-NAmnxKk/
+: 1751581988:0;dlig https://www.instagram.com/p/CFz6rF9npJd/
+: 1751581988:0;instaloader --login=notebynoteseries
+: 1751581988:0;vainfo
+: 1751581988:0;sudo pacman -S libva libva-utils mesa-vaapi
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;curl -s 'wttr.in/?format=Temp%3A%20%t%20%28%f%29'
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;cat /tmp/i3blocks-weather.log
+: 1751581988:0;~/.config/i3blocks/weather.sh
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;~/.config/i3blocks/weather.sh
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;~/.config/i3blocks/weather.sh
+: 1751581988:0;echo hello
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;.config/i3blocks/weather.sh
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;curl -s 'wttr.in/2'
+: 1751581988:0;curl -s 'wttr.in'
+: 1751581988:0;cat .config/i3blocks/weather.sh
+: 1751581988:0;curl -s "wttr.in/54311"
+: 1751581988:0;curl -s "wttr.in/54311?format=1"
+: 1751581988:0;curl wttr.in
+: 1751581988:0;/usr/lib/i3blocks/disk /
+: 1751581988:0;which disk
+: 1751581988:0;echo "$(iw dev wlo1 link | grep SSID | cut -d " " -f 2-)"
+: 1751581988:0;sudo pacman -S iw
+: 1751581988:0;echo "$(iw dev wlo1 link | grep SSID | cut -d " " -f 2-)"
+: 1751581988:0;which i3blocks/disk
+: 1751581988:0;echo $XDG_CONFIG_HOME
+: 1751581988:0;whereis i3blocks
+: 1751581988:0;/usr/bin/i3blocks/disk
+: 1751581988:0;neovim 
+: 1751581988:0;sudo pacman -S neovim
+: 1751581988:0;sudo pacman -S neofetch
+: 1751581988:0;yay -S neofetch
+: 1751581988:0;neofetch
+: 1751581988:0;yay -S i3-gaps-rounded-git
+: 1751581988:0;sudo pacman -S flameshot
+: 1751581988:0;vim code/getty_scrape.py
+: 1751581988:0;cd code
+: 1751581988:0;ls
+: 1751581988:0;cd getty-scrape
+: 1751581988:0;mkdir getty
+: 1751581988:0;cd getty
+: 1751581988:0;vim getty.py
+: 1751581988:0;mkdir getty
+: 1751581988:0;rmdir getty
+: 1751581988:0;vim getty
+: 1751581988:0;chmod +x getty
+: 1751581988:0;ln -s ~/code/getty/getty ~/.local/bin/getty
+: 1751581988:0;getty https://gettyimagesgallery.com/images/leaping-beatles\
+
+: 1751581988:0;pip install beautifulsoup4
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;pip install beautifulsoup4 requests
+: 1751581988:0;pip freeze > requirements.txt
+: 1751581988:0;getty https://gettyimagesgallery.com/images/leaping-beatles\
+
+: 1751581988:0;ziw getty.py
+: 1751581988:0;vim getty.py
+: 1751581988:0;getty https://gettyimagesgallery.com/images/leaping-beatles\
+
+: 1751581988:0;vim getty.py
+: 1751581988:0;getty https://gettyimagesgallery.com/images/leaping-beatles\
+
+: 1751581988:0;getty https://gettyimagesgallery.com/images/3rd-june-1964-british-pop-group-the-beatles-are-pictured-prior-to-a-tour-of-denmark-and-holland-with-drummer-jimmy-nicol-who-replaced-ringo-starr-due-to-illness-l-r-paul-mccartney-john-lennon-jim/\?collection\=beatles
+: 1751581988:0;vim getty.py\
+
+: 1751581988:0;getty https://gettyimagesgallery.com/images/3rd-june-1964-british-pop-group-the-beatles-are-pictured-prior-to-a-tour-of-denmark-and-holland-with-drummer-jimmy-nicol-who-replaced-ringo-starr-due-to-illness-l-r-paul-mccartney-john-lennon-jim/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/1963-the-pop-group-the-beatles-in-sweden-george-harrison-and-john-lennon-playing-their-guitars-as-they-rehearse-in-their-stockholm-hotel-room/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/all-you-need-is-love/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatle-farewell/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatle-in-barbados/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/apple-queues/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-in-canteen/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-portrait/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-in-paris/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatle-on-his-bike/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-rehearse-shakespeare/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-usa/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-thumbs-up/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatlesinparis/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/beatles-silver-discs/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/fan-club-girls/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/fans-invasion/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/farewell-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/first-class-travel/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/george-and-patti-kiss/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/george-harrison-cleaning-guitar/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/george-harrison-of-the-beatles-pop-group-holding-his-guitar-during-a-rehearsal-1963/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/hard-days-night/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/hard-days-night-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-julian/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-and-george/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-lennon/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-lennon-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-lennon-3/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/john-lennon-of-the-beatles-pop-group/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/lennon-and-ladies/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/lennons-triumph/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/mccartney-and-asher/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/members-of-the-beatles-pop-group-all-wearing-suits-and-smoking-cigarettes-1963/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/paul-mccartney-and-ringo-starr/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/photo-of-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/photo-of-john-lennon/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/photo-of-magical-mystery-tour-and-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-and-maureen/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr-3/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr-4/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr-5/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/ringo-starr-playing-cards/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/roll-up/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/rooftop-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/rooftop-beatles-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/silver-for-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/steptoe-and-a-beatle/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/suburban-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/talk-to-john/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-1964-us-tour/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-1964-us-tour-2/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-1964-us-tour-3/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-in-austria/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-performing/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/the-beatles-pop-group-during-rehearsals-in-1963/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/tudor-beatles/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/volume-2-page-84-picture-6-the-beatles-february-1964-john-lennon-with-his-wife-cynthia-flying-to-new-york/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/volume-2-page-85-picture-7-the-beatles-october-1963-ringo-starr-and-john-lennon-at-stockholm-airport-sweden-drinking-a-cup-of-coffee/\?collection\=beatles
+: 1751581988:0;getty https://gettyimagesgallery.com/images/volume-2-page-85-picture-8-1963-the-pop-group-the-beatles-read-a-letter-in-their-dressing-room-pictured-left-to-right-paul-mccartney-george-harrison-john-lennon-and-ringo-starr/\?collection\=beatles
+: 1751581988:0;cd ~/Pictures/Beatles/
+: 1751581988:0;grep -r "Paul McCartney" .
+: 1751581988:0;grep -r "15th February, 1964" .
+: 1751581988:0;vim 40s_john-lennon-leila-stanley-parkes_001.txt
+: 1751581988:0;vim 40s_paul-mccartney_002_family.txt
+: 1751581988:0;vim 40s_george-harrison_002_family.txt
+: 1751581988:0;vim 40s_paul-mccartney_005.txt
+: 1751581988:0;vim 40s_paul-mccartney_006_family.txt
+: 1751581988:0;vim 40s_paul-mccartney_007.txt
+: 1751581988:0;vim 40s_paul-mccartney_008_family.txt
+: 1751581988:0;vim 40s_paul-mccartney_009_family.txt
+: 1751581988:0;vim 40s_paul-mccartney_010_family.txt
+: 1751581988:0;vim 40s_paul-mccartney_011_family.txt
+: 1751581988:0;vim 50s_george-harrison_004.txt
+: 1751581988:0;vim 50s_john-lennon-stanley-parkes_001.txt
+: 1751581988:0;vim 58_quarrymen.txt
+: 1751581988:0;vim 570706_quarrymen_02.txt
+: 1751581988:0;vim 570706_quarrymen_03.txt
+: 1751581988:0;vim 570706_quarrymen_04.txt
+: 1751581988:0;vim 570706_quarrymen_programme.txt
+: 1751581988:0;vim 571123_01.txt
+: 1751581988:0;vim 571123_02.txt
+: 1751581988:0;vim 571123_03.txt
+: 1751581988:0;vim 581220_01.txt
+: 1751581988:0;vim 590829_01.txt
+: 1751581988:0;vim 590829_02.txt
+: 1751581988:0;vim quarrymen-business-card_01.txt
+: 1751581988:0;vim 40s_paul-mccartney_004.txt
+: 1751581988:0;vim 40s_john-lennon_001.txt
+: 1751581988:0;vim john-lennon_0021.txt
+: 1751581988:0;vim 50s_paul-mccartney_003_family.txt
+: 1751581988:0;vim ringo-starr-baby_01.txt
+: 1751581988:0;vim 570706_quarrymen_poster.txt
+: 1751581988:0;vim george-harrison-baby_01.txt
+: 1751581988:0;vim 58_quarrymen_02-718x960.txt
+: 1751581988:0;grep -r "1958" .
+: 1751581988:0;cd ~/code
+: 1751581988:0;ls
+: 1751581988:0;cd dlig
+: 1751581988:0;ls
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;pip install requests beautifulsoup4
+: 1751581988:0;pip freeze > requirements.txt
+: 1751581988:0;ls
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;cat dlig
+: 1751581988:0;cat ../getty/getty
+: 1751581988:0;vim dlig
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;pip install playwright
+: 1751581988:0;playwright install chromium
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;vim dlig.py\
+\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C2fakSYoyyh/
+: 1751581988:0;dlig https://www.instagram.com/p/C3cqTvgora2/
+: 1751581988:0;dlig https://www.instagram.com/p/C3htV13ILzi/
+: 1751581988:0;dlig https://www.instagram.com/p/C3xvhkMIZwX/
+: 1751581988:0;dlig https://www.instagram.com/p/C42s-9TIAHO/
+: 1751581988:0;dlig https://www.instagram.com/p/C4_Khlqozb4/
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/\?img_index\=1
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5RUoLxs8L1/
+: 1751581988:0;dlig https://www.instagram.com/p/C5YzbYHMWEK/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5YzbYHMWEK/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5YzbYHMWEK/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5YzbYHMWEK/
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;cat dlig.py
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C5ttx00sSR5/
+: 1751581988:0;ytget https://www.youtube.com/watch\?v\=4Nq-GyLrtHc
+: 1751581988:0;ytget https://www.youtube.com/watch\?v\=IN2u8c3DFRg\&t\=337s
+: 1751581988:0;z
+: 1751581988:0;sudo pacman -S rtorrent
+: 1751581988:0;udo pacman -Syy
+: 1751581988:0;sudo pacman -Syy
+: 1751581988:0;sudo pacman -S rtorrent
+: 1751581988:0;mkdir -p .config/rtorrent
+: 1751581988:0;touch .config/rtorrent/rtorrent.rc
+: 1751581988:0;ln -s .config/rtorrent/rtorrent.rc .rtorrent.rc
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;mkdir -p .local/share/rtorrent/{session,watch}
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;mc
+: 1751581988:0;tmux n -t torrent
+: 1751581988:0;tmux
+: 1751581988:0;rtorrent
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux a -t torrent
+: 1751581988:0;rtorrent
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;tmux a -t torrent
+: 1751581988:0;rtorrent
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;rtorrent
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;mv .local/share/rtorrent/* .config/rtorrent
+: 1751581988:0;rm -rf .local/share/rtorrent
+: 1751581988:0;vim .config/rtorrent/rtorrent.rc
+: 1751581988:0;tmux a -t torrent
+: 1751581988:0;rtorrent
+: 1751581988:0;rtorrent -h
+: 1751581988:0;rtorrent
+: 1751581988:0;cd Downloads
+: 1751581988:0;7z x ADF05_RoughRider_3.2.1.zip
+: 1751581988:0;cd ADF05_RoughRider_3.2.1
+: 1751581988:0;ls
+: 1751581988:0;7z x Linux_RoughRider3_3.2.1.zip
+: 1751581988:0;chmod +x RoughRider3_Installer_v3.2.1
+: 1751581988:0;./RoughRider3_Installer_v3.2.1
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;7z x zlequalizer.zip
+: 1751581988:0;7z x ZL.Equalizer-0.1.13.zip
+: 1751581988:0;cd VST3
+: 1751581988:0;ls
+: 1751581988:0;mv ZL\ Equalizer.vst3 ~/.vst3
+: 1751581988:0;pkill -f reaper
+: 1751581988:0;rm -rf ~/.vst3/ZL\ Equalizer.vst3
+: 1751581988:0;cd ~/.config/rtorrent/download
+: 1751581988:0;ls
+: 1751581988:0;cd Uhe.Everything.Bundle.2022.Linux.Incl.Keygen-R2R
+: 1751581988:0;l/s
+: 1751581988:0;ls
+: 1751581988:0;7z x r2r11690.rar
+: 1751581988:0;cat R2R.nfo
+: 1751581988:0;cat R2R.nfo | less
+: 1751581988:0;7z Satin_132_12092_Linux.tar.xz
+: 1751581988:0;yay -S google-chrome
+: 1751581988:0;pkill -f thunar
+: 1751581988:0;ps aux | grep thunar
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;cd .mounts/dropbox/The\ Beatles\ Note\ By\ Note/Edits/mp3s
+: 1751581988:0;ls
+: 1751581988:0;ffmpeg -i The\ Beatles\ Note\ By\ Note\ Podcast\ -\ LS043\ -\ A\ World\ Without\ Love\ -\ Lecture\ Series\ \(bonus\).mp3
+: 1751581988:0;ls
+: 1751581988:0;ffmpeg -i The\ Beatles\ Note\ By\ Note\ Podcast\ -\ LS047\ -\ One\ And\ One\ Is\ Two\ -\ Lecture\ Series\ \(bonus\).mp3
+: 1751581988:0;export QT_QPA_PLATFORM=windows:darkmode=2
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;cd code/dlig
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;ls -a
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;dlig https://www.instagram.com/p/C6THYDaMeAx/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6THYDaMeAx/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6THYDaMeAx/
+: 1751581988:0;dlig https://www.instagram.com/p/C6EtNxksqqz/
+: 1751581988:0;dlig https://www.instagram.com/p/C6USCGeM4xF/
+: 1751581988:0;dlig https://www.instagram.com/p/C6W2M2cS-jJ/
+: 1751581988:0;dlig https://www.instagram.com/p/C6W3TNFPc7X/
+: 1751581988:0;dlig https://www.instagram.com/p/C6YhdQssqxx/
+: 1751581988:0;pkill -f thunar
+: 1751581988:0;sudo pacman -Rns thunar
+: 1751581988:0;sudo pacman -S nautilus
+: 1751581988:0;dlig https://www.instagram.com/p/C6bGRRzsGrX/
+: 1751581988:0;dlig https://www.instagram.com/p/C6drBDHNbGG/
+: 1751581988:0;dlig https://www.instagram.com/p/C6gP0Utt0ZX/
+: 1751581988:0;vim dlig.py
+: 1751581988:0;dlig https://www.instagram.com/p/C6i0maAMpwJ/
+: 1751581988:0;vim dlig.py\
+
+: 1751581988:0;dlig https://www.instagram.com/p/C6i0maAMpwJ/
+: 1751581988:0;cd ~/Pictures/Beatles/C6jH9adML2w
+: 1751581988:0;vim d.txt
+: 1751581988:0;cd ../C6lZZoNsMLx
+: 1751581988:0;ls
+: 1751581988:0;vim d.txt
+: 1751581988:0;cd ../C6n-MX6Ms04
+: 1751581988:0;vim d.txt\
+
+: 1751581988:0;cd ../C6qi-6mNXTV
+: 1751581988:0;vim d.txt\
+
+: 1751581988:0;cd ../C6tHyLqND9E
+: 1751581988:0;vim d.txt\
+
+: 1751581988:0;cd ../C6vsm8SsbcG
+: 1751581988:0;vim d.txt\
+
+: 1751581988:0;cd ../C6yRYYgsh01
+: 1751581988:0;vim d.txt\
+
+: 1751581988:0;pkill -f thunar
+: 1751581988:0;ps aux | grep thunar
+: 1751581988:0;sourc ~/.zshrc
+: 1751581988:0;source ~/.zshrc
+: 1751581988:0;vim ~/.config/i3
+: 1751581988:0;vim ~/.config/i3/config
+: 1751581988:0;reboot
+: 1751581988:0;vim ~/.config/i3/config
+: 1751581988:0;gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+: 1751581988:0;echo $GTK_THEME
+: 1751581988:0;vim ~/.zshrc
+: 1751581988:0;source ~/.zshrc
+: 1751581988:0;nautilus
+: 1751581988:0;gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'\
+
+: 1751581988:0;dconf read /org/gnome/desktop/interface/gtk-
+: 1751581988:0;dconf read /org/gnome/desktop/interface/gtk-theme
+: 1751581988:0;GTK_THEME=Adwaita:dark nautilus
+: 1751581988:0;vim ~/.local/bin/nautilus-dark
+: 1751581988:0;chmod +x .local/bin/nautilus-dark
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;nautilus-dark
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;cd ~/Downloads
+: 1751581988:0;ls
+: 1751581988:0;7z --help
+: 1751581988:0;7z l lsp-plugins-1.2.22-Linux-x86_64.7z
+: 1751581988:0;7z --help
+: 1751581988:0;7z x -o lsp lsp-plugins-1.2.22-Linux-x86_64.7z
+: 1751581988:0;7z x -olsp lsp-plugins-1.2.22-Linux-x86_64.7z
+: 1751581988:0;cd lsp/lsp-plugins-1.2.22-Linux-x86_64
+: 1751581988:0;ls
+: 1751581988:0;cd VST3
+: 1751581988:0;ls
+: 1751581988:0;cp lsp-plugins.vst3/ ~/.vst3
+: 1751581988:0;cp -r lsp-plugins.vst3 ~/.vst3
+: 1751581988:0;reflector --help
+: 1751581988:0;vim .local/bin/update-arch
+: 1751581988:0;cd ~
+: 1751581988:0;vim .local/bin/update-arch
+: 1751581988:0;chmod +x .local/bin/update-arch
+: 1751581988:0;sudo pacman -Qk
+: 1751581988:0;sudo pacman -Qk | less
+: 1751581988:0;cd ~/.config/i3blocks
+: 1751581988:0;ls
+: 1751581988:0;vim check-arch-updates.sh
+: 1751581988:0;chmod +x check-arch-updates.sh
+: 1751581988:0;vim config
+: 1751581988:0;ls
+: 1751581988:0;vim display-arch-updates.sh
+: 1751581988:0;cat display-arch-updates.sh > check-arch-updates.sh
+: 1751581988:0;vim check-arch-updates.sh
+: 1751581988:0;checkupdates
+: 1751581988:0;sudo pacman -S pacman-contrib
+: 1751581988:0;checkupdates
+: 1751581988:0;vim check-arch-updates.sh
+: 1751581988:0;vim ../vim/vimrc
+: 1751581988:0;vim check-arch-updates.sh
+: 1751581988:0;vim
+: 1751581988:0;z vim 
+: 1751581988:0;z
+: 1751581988:0;vim .config/vim/vimrc
+: 1751581988:0;vim .config/alacritty/alacritty.toml
+: 1751581988:0;update-arch
+: 1751581988:0;vim .config/i3blocks/check-arch-updates.sh
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/check-arch-updates.sh
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;ps aux | grep alacritty
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;alacritty -e ~/.local/bin/update-arch
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/check-arch-updates.sh
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/check-arch-updates.sh
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;i3block -V
+: 1751581988:0;i3blocks -V
+: 1751581988:0;sudo pacman -S i3blocks
+: 1751581988:0;i3blocks -V
+: 1751581988:0;BLOCK_BUTTON=1 ~/.config/i3blocks/check-arch-updates.sh
+: 1751581988:0;which i3blocks
+: 1751581988:0;shutdown now
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;curl -s "wttr.in/?format=1"
+: 1751581988:0;curl -s "wttr.in/54311?format=1"
+: 1751581988:0;sudo pacman -S google-chrome
+: 1751581988:0;yay -S google-chrome
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;cd .mounts/dropbox
+: 1751581988:0;ls
+: 1751581988:0;cd The\ Beatles\ Note\ By\ Note
+: 1751581988:0;ls
+: 1751581988:0;cd Resources
+: 1751581988:0;vim summary-oneandoneistwo.txt
+: 1751581988:0;vim summary-oneandoneistwo-ls.txt
+: 1751581988:0;cp summary-* ~/
+: 1751581988:0;cd ~/
+: 1751581988:0;ls
+: 1751581988:0;reboot
+: 1751581988:0;date -u
+: 1751581988:0;timedatectl
+: 1751581988:0;:countentReference[oaicite:3]{index=3}
+: 1751581988:0;timedatectl timesync-status
+: 1751581988:0;systemctl status systemd-timesyncd
+: 1751581988:0;sudo vim /etc/systemd/timesyncd.conf
+: 1751581988:0;timedatectl timesync-status
+: 1751581988:0;sudo systemctl restart systemd-timesyncd
+: 1751581988:0;sudo tmedatectl set-ntp true
+: 1751581988:0;sudo timedatectl set-ntp true
+: 1751581988:0;sudo reboot
+: 1751581988:0;sudo ntpdate -q ntp.secg.org
+: 1751581988:0;sudo pacman -S ntpdate
+: 1751581988:0;sudo yay -S ntpdate
+: 1751581988:0;yay -S ntpdate
+: 1751581988:0;sudo pacman -S ntp
+: 1751581988:0;sudo ntpdate -q ntp.secg.org
+: 1751581988:0;sudo vim /etc/systemd/timesyncd.conf
+: 1751581988:0;sudo systemctl restart systemd-timesyncd
+: 1751581988:0;timedatectl timesync-status
+: 1751581988:0;sudo systemctl stop systemd-timesyncd.service
+: 1751581988:0;sudo rm -f /var/lib/systemd/timesync/clock
+: 1751581988:0;sudo systemctl start systemd-timesyncd.service
+: 1751581988:0;timedatectl timesync-status\
+
+: 1751581988:0;sudo ntpdate -q ntp.steeringbytes.com
+: 1751581988:0;ping google.com
+: 1751581988:0;cat /etc/resolv.conf
+: 1751581988:0;dig ntp.steeringbytes.com
+: 1751581988:0;sudo pacman -S dig
+: 1751581988:0;sudo pacman -S bind
+: 1751581988:0;dig
+: 1751581988:0;dig ntp.steeringbytes.com
+: 1751581988:0;sudo ntpdate -q ntp.steeringbytes.com
+: 1751581988:0;sudo systemctl restart systemd-resolved
+: 1751581988:0;sudo ntpdate -q ntp.steeringbytes.com
+: 1751581988:0;resolvectl query ntpmon.dedyn.io
+: 1751581988:0;dig pool.ntp.org
+: 1751581988:0;ping pool.ntp.org
+: 1751581988:0;sudo ntpdate -q pool.ntp.org
+: 1751581988:0;sudo vim /etc/systemd/timesyncd.conf
+: 1751581988:0;sudo systemctl restart systemd-timesyncd
+: 1751581988:0;timedatectl timesync-status\
+
+: 1751581988:0;vim Pictures/Beatles/tumblr_lrwvg4f0v41qhnkvco1_1280.txt
+: 1751581988:0;ytget https://www.youtube.com/watch\?v\=fC8RW8wJ5MQ
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;systemctl restart rclone-dropbox
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;journalctl --user -fu rclone-dropbox.service
+: 1751581988:0;sudo pacman -S pipewire wireplumber pipewire-pulse pipewire-jack helvum easyeffects qjackctl
+: 1751581988:0;sudo pacman -S calf lv2-plugins lsp-plugins zam-plugins
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;chmod +x .config/i3blocks/audio_output.sh
+: 1751581988:0;wpctl status
+: 1751581988:0;mkdir -p ~/.config/pipewire/pipewire.config.d
+: 1751581988:0;vim .config/pipewire/pipewire.config.d/virtual-outputs.conf
+: 1751581988:0;pw-dump | grep -i playback
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl move 140 tower_speakers_in
+: 1751581988:0;wpctl move 140 0
+: 1751581988:0;wpctl status | Tower
+: 1751581988:0;wpctl status | grep Tower
+: 1751581988:0;vim ~/.config/pipewire/pipewire.config.d/virtual-outputs.conf
+: 1751581988:0;cat ~/.config/pipewire/pipewire.config.d/virtual-outputs.conf
+: 1751581988:0;mv ~/.config/pipewire/pipewire.config.d ~/.config/pipewire/pipewire.conf.d
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl status | grep -i tower
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl status | grep -i plex
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl status | grep -i plex
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl move 152 38
+: 1751581988:0;wpctl move 152 tower_speakers_in
+: 1751581988:0;pw-link
+: 1751581988:0;pw-cli ls Node | grep -i plexamp
+: 1751581988:0;pw-cli ls Node
+: 1751581988:0;pw-link --help
+: 1751581988:0;pw-link 151 38
+: 1751581988:0;pw-link | grep -i tower
+: 1751581988:0;pw-link ls Node | grep -i tower
+: 1751581988:0;pw-link
+: 1751581988:0;pw-link -o
+: 1751581988:0;pw-link -i
+: 1751581988:0;pw-link -i | grep -i tower
+: 1751581988:0;pw-link -o | grep -i plexamp
+: 1751581988:0;pw-link alsa_playback.plexamp:output_FL tower_speakers_in:playback_FL
+: 1751581988:0;pw-link alsa_playback.plexamp:output_FR tower_speakers_in:playback_FR
+: 1751581988:0;pw-link -l
+: 1751581988:0;pw-link -d tower_speakers_out:output_FL \\
+"AudioBox 1818 VSL:playback_AUX0"
+: 1751581988:0;pw-link -d tower_speakers_out:output_FR \\
+"AudioBox 1818 VSL:playback_AUX1"
+: 1751581988:0;vim  ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;cat ~/.config/pipewire/pipewire.config.d/virtual-outputs.conf
+: 1751581988:0;cat ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;vim  ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;pw-link -l
+: 1751581988:0;wpctl status | grep -i tower
+: 1751581988:0;cat ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;vim  ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;pw-link -l
+: 1751581988:0;vim  ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;pw-link -l
+: 1751581988:0;wpctl status | grep -i tower
+: 1751581988:0;wpctl status
+: 1751581988:0;pw-link -l
+: 1751581988:0;vim  ~/.config/pipewire/pipewire.conf.d/virtual-outputs.conf
+: 1751581988:0;mkdir -p ~/.config/wireplumber/main.lua.d
+: 1751581988:0;lf
+: 1751581988:0;pw-cli list-objects Node
+: 1751581988:0;vim scratch
+: 1751581988:0;pw-cli list-objects Device
+: 1751581988:0;vim .config/wireplumber/main.lua.d/51-outputs.lua
+: 1751581988:0;vim .config/wireplumber/main.lua.d/51-disabled-nodes.lua
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;pulsemixer
+: 1751581988:0;sudo pacman -S pulsemixer
+: 1751581988:0;pulsemixer
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl inspect 74
+: 1751581988:0;mkdir -p ~/.config/wireplumber/wireplumber.conf.d
+: 1751581988:0;vim .config/wireplumber/wireplumber.conf.d/51-device-rename.conf
+: 1751581988:0;pw-cli list-objects Device
+: 1751581988:0;vim scratch
+: 1751581988:0;cat scretch
+: 1751581988:0;cat scratch
+: 1751581988:0;vim .config/wireplumber/wireplumber.conf.d/51-device-disable.conf
+: 1751581988:0;rm -rf ~/.config/wireplumber/main.lua.d
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;pulsemixer
+: 1751581988:0;rm -rf ~/.config/pipewire
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;mkdir -p ~/.config/pipewire/pipewire.conf.d
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;pulsemixer
+: 1751581988:0;cat ~/.config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;cat ~/.config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;journalctl --user -u pipewire -u pipewire-pulse -u wireplumber -f
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;ls .config/pipewire
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;journalctl --user -u pipewire -u pipewire-pulse -u wireplumber -f
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;journalctl --user -u pipewire -u pipewire-pulse -u wireplumber -f
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;wpctl status
+: 1751581988:0;ls .config/wireplumber
+: 1751581988:0;vim .config/wireplumber/wireplumber.conf.d/51-app-routing.conf
+: 1751581988:0;cat ~/.config/wireplumber/wireplumber.conf.d/51-device-rename.conf
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;pw-link -l
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;pactl list short sources
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;pactl list short sources
+: 1751581988:0;wpctl status
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;pulsemixer
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;fg
+: 1751581988:0;vim .config/i3blocks/config
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;cat ~/.config/pipewire/pipewire.conf.d/virtual-sinks.conf
+: 1751581988:0;wpctl status
+: 1751581988:0;pipewire-pulse
+: 1751581988:0;pactl list
+: 1751581988:0;pactl list short sources
+: 1751581988:0;pactl list sinks
+: 1751581988:0;pactl list short sinks
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;pactl list short sinks
+: 1751581988:0;awk '$2 ~ /^audiobox_out_/ {\
+id = $1; name = $2;\
+desc = system("pactl list sinks | awk \047$1==id {found=1} found && /device.description/ {gsub(/.*\"|\"/,""); print; exit}\047") "";\
+print id "|" desc\
+}'
+: 1751581988:0;pactl list short sinks 44
+: 1751581988:0;pactl list short 44
+: 1751581988:0;pactl list 
+: 1751581988:0;pactl list --help
+: 1751581988:0;pactl --help
+: 1751581988:0;pactl info
+: 1751581988:0;pactl info 44
+: 1751581988:0;pactl list short sinks -f json
+: 1751581988:0;pactl -f json list short sinks
+: 1751581988:0;man pactl
+: 1751581988:0;pacmd list-sinks | sed -n '/^\s*\* index/,$p' | grep '^\s*device.description =' | cut -f2 -d\"
+: 1751581988:0;sudo pacman -S pacmd
+: 1751581988:0;yay -S pacmd
+: 1751581988:0;sudo pacman -S pulseaudio pipewire-pulse
+: 1751581988:0;pacman -Qe pulseaudio
+: 1751581988:0;pacman -Q pulseaudio
+: 1751581988:0;pacman -Qs pulseaudio
+: 1751581988:0;pacmd
+: 1751581988:0;sudo pacman -S libpulse
+: 1751581988:0;pacmd
+: 1751581988:0;pactl list sinks | grep -E "Sink #|device.description"
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;pulsemixer --id 44
+: 1751581988:0;pulsemixer --id
+: 1751581988:0;pulsemixer --id 44
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;vim test.sh
+: 1751581988:0;chmod +x test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;pactl list sinks | grep -C2 AudioBox
+: 1751581988:0;pactl list sinks | grep -E 'Sink #|device.description'\
+
+: 1751581988:0;pactl list short sinks | awk '$2 ~ /^audiobox_out_/ {print $1 "|" $3}'
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;pactl list sinks | grep -E 'Sink #|device.description'\
+
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;cat test.sh
+: 1751581988:0;./test.sh test.sh
+: 1751581988:0;cat test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;vim test.sh
+: 1751581988:0;./test.sh
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;vim .config/i3blocks/audio_output.sh-
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;vim scratch
+: 1751581988:0;cat scratch
+: 1751581988:0;cd code
+: 1751581988:0;ls
+: 1751581988:0;mkdir podcast-transcriber
+: 1751581988:0;cd podcast-transcriber
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;.venv/bin/activate
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;pip install vosk
+: 1751581988:0;pip install --upgrade pip
+: 1751581988:0;wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+: 1751581988:0;unzip vosk-model-small-en-us-0.15.zip
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py
+: 1751581988:0;pip uninstall vosk
+: 1751581988:0;rm -rf vosk-model-small-en-us-0.15*
+: 1751581988:0;ls
+: 1751581988:0;pip install -U openai-whisper
+: 1751581988:0;pyenv
+: 1751581988:0;sudo pacman -S pyenv
+: 1751581988:0;pyenv install 3.11.9
+: 1751581988:0;pyenv local 3.11.9
+: 1751581988:0;deactivate
+: 1751581988:0;rm -rf .venv
+: 1751581988:0;python --version
+: 1751581988:0;vim ~/.zshrc
+: 1751581988:0;source ~/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;python --version
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;python --version
+: 1751581988:0;python install -U pip
+: 1751581988:0;pip install -U pip
+: 1751581988:0;pip install openai-whisper
+: 1751581988:0;ls
+: 1751581988:0;whisper test.wav --model small
+: 1751581988:0;ls
+: 1751581988:0;vim test.txt
+: 1751581988:0;ls
+: 1751581988:0;ls -a
+: 1751581988:0;pip install openai
+: 1751581988:0;vim .env
+: 1751581988:0;vim main.py
+: 1751581988:0;pip install python-dotenv
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py test.wav
+: 1751581988:0;vim test.chatgpt.txt
+: 1751581988:0;python main.py /shared/The\ Beatles\ Note\ By\ Note/052\ A\ Hard\ Day\'s\ Night\ Film/052\ A\ Hard\ Day\'s\ Night\ Film-v1.wav
+: 1751581988:0;ls
+: 1751581988:0;vim test.chatgpt.txt
+: 1751581988:0;vim main.py
+: 1751581988:0;python main.py /shared/The\ Beatles\ Note\ By\ Note/053\ A\ Hard\ Day\'s\ Night/053\ A\ Hard\ Day\'s\ Night-v2.wav
+: 1751581988:0;cd /shared/The\ Beatles\ Note\ By\ Note
+: 1751581988:0;ls
+: 1751581988:0;cd 052\ A\ Hard\ Day\'s\ Night\ Film/=
+: 1751581988:0;cd 052\ A\ Hard\ Day\'s\ Night\ Film/
+: 1751581988:0;ls
+: 1751581988:0;vim 052\ A\ Hard\ Day\'s\ Night\ Film-v1.transcript.txt
+: 1751581988:0;mkdir -p ~/.config/tmux
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;cat
+: 1751581988:0;tmux
+: 1751581988:0;cat
+: 1751581988:0;tmu ls
+: 1751581988:0;tmux /-
+: 1751581988:0;tmux ls
+: 1751581988:0;ps -ef | grep tmux
+: 1751581988:0;curl -L https://gist.github.com/lilydjwg/fdeaf79e921c2f413f44b6f613f6ad53/raw/94d8b2be62657e96488038b0e547e3009ed87d40/colors.py | python3
+: 1751581988:0;sudo vim /etc/systemd/logind.conf
+: 1751581988:0;echo $TERM
+: 1751581988:0;upname -sp
+: 1751581988:0;uname -sp
+: 1751581988:0;uname
+: 1751581988:0;uname -a
+: 1751581988:0;tmux
+: 1751581988:0;tmux ls
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;sudo pacman -S urlview
+: 1751581988:0;yay -S urlview
+: 1751581988:0;urlview
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;tmux
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;tmux
+: 1751581988:0;ls ~/.config/tmux
+: 1751581988:0;tmux --version
+: 1751581988:0;tmux help
+: 1751581988:0;man tmux
+: 1751581988:0;ln -s .config/tmux/tmux.conf .tmux.conf
+: 1751581988:0;tmux
+: 1751581988:0;rm .tmux.conf
+: 1751581988:0;ln -s /home/krosewall/.config/tmux/tmux.conf /home/krosewall/.tmux.conf
+: 1751581988:0;tmux
+: 1751581988:0;tmux ls
+: 1751581988:0;strace
+: 1751581988:0;killall tmux
+: 1751581988:0;tmux
+: 1751581988:0;tmux kill-server
+: 1751581988:0;tmux
+: 1751581988:0;cat "hello\
+"
+: 1751581988:0;cat "hello"
+: 1751581988:0;echo "hello"
+: 1751581988:0;echo "hello\
+"
+: 1751581988:0;clear
+: 1751581988:0;echo "hello"
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;tmux
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux kill-server
+: 1751581988:0;tmux
+: 1751581988:0;uptime | cut -f 4-5 -d ' ' | cut -f 1 -d ','
+: 1751581988:0;tmux-mem-cpu-load
+: 1751581988:0;powerline
+: 1751581988:0;tmux show-options -g | grep status
+: 1751581988:0;date
+: 1751581988:0;date + "%m-%i-%y"
+: 1751581988:0;date + "%m-%d-%y"
+: 1751581988:0;date +"%m-%d-%y"
+: 1751581988:0;date +"%r"
+: 1751581988:0;date +"%a %b %d %y %H:%M %p"
+: 1751581988:0;date +"%a %b %d, %y %H:%M %p"
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux a -t Testing
+: 1751581988:0;tmux a -t 0
+: 1751581988:0;tmux attach-session
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux
+: 1751581988:0;tmux kill-server
+: 1751581988:0;tmux
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;clear
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;tmux kill-server\
+
+: 1751581988:0;tmux
+: 1751581988:0;echo "hello"
+: 1751581988:0;ls .config/systemd/user
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;cat .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;systemctl --user start tmux-server.service
+: 1751581988:0;systemctl --user status tmux-server.service
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;systemctl --user start tmux-server.service
+: 1751581988:0;systemctl --user status tmux-server.service
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;systemctl --user restart tmux-server
+: 1751581988:0;journalctl --user -xeu tmux-server.service
+: 1751581988:0;tmux kill-server
+: 1751581988:0;/usr/bin/tmux new-session -s krosewall -d
+: 1751581988:0;tmux kill-session -t krosewall
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux kill-session -t krosewall
+: 1751581988:0;/usr/bin/tmux new-session -s krosewall -d
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux kill-session -t krosewall
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;cat .config/systemd/user/tmux-server.service
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;systemctl --user start tmux-server.service
+: 1751581988:0;systemctl --user status tmux-server.service
+: 1751581988:0;vim .config/systemd/user/tmux-server.service
+: 1751581988:0;systemctl --user daemon-reload
+: 1751581988:0;systemctl --user start tmux-server.service
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux a -t krosewall
+: 1751581988:0;cat .config/systemd/user/tmux-server.service
+: 1751581988:0;tmux kill-server
+: 1751581988:0;systemctl --user restart tmux-server.service
+: 1751581988:0;tmux ls
+: 1751581988:0;tmux a -t krosewall
+: 1751581988:0;r
+: 1751581988:0;tmux a -t krosewall
+: 1751581988:0;ls
+: 1751581988:0;ls -a
+: 1751581988:0;ls -al
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;cat .config/systemd/user/tmux-server.service
+: 1751581988:0;cat .config/systemd/user
+: 1751581988:0;cat .config/systemd/user/rclone-dropbox.service
+: 1751581988:0;vim .zshrc
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;echo "hello"
+: 1751581988:0;ls
+: 1751581988:0;echo "https://duckduckgo.com\
+"
+: 1751581988:0;clear
+: 1751581988:0;echo "https://duckduckgo.com"
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/effects-sink.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;pactl list sinks
+: 1751581988:0;pactl list sinks | grep -E 'Sink #|device.description'\
+
+: 1751581988:0;pactl set-default-sink effects_sink
+: 1751581988:0;pactl get-default-
+: 1751581988:0;pactl get-default-sinxk
+: 1751581988:0;pactl get-default-sink
+: 1751581988:0;gsettings set com.github.wwmm.easyeffects output-device "audiobox_out_78"
+: 1751581988:0;gsettings set com.github.wwmm.easyeffects output_device "audiobox_out_78"
+: 1751581988:0;gsettings get com.github.wwmm.easyeffects
+: 1751581988:0;gsettings keys com.github.wwmm.easyeffects
+: 1751581988:0;gsettings list-keys com.github.wwmm.easyeffects
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;mv .config/i3blocks/audio_output.sh .config/i3blocks/audio_output.wo_easyeffects.sh
+: 1751581988:0;vim .config/i3blocks/switch_audio.sh
+: 1751581988:0;.config/i3blocks/switch_audio.sh
+: 1751581988:0;chmod +x .config/i3blocks/switch_audio.sh
+: 1751581988:0;.config/i3blocks/switch_audio.sh
+: 1751581988:0;chmod _
+: 1751581988:0;chmod +x .config/i3blocks/audio_output.sh
+: 1751581988:0;.config/i3blocks/switch_audio.sh
+: 1751581988:0;pactl list short sink-inputs
+: 1751581988:0;pactl list sinks 45
+: 1751581988:0;man pactl
+: 1751581988:0;pactl list sinks
+: 1751581988:0;pactl list short sink-inputs
+: 1751581988:0;pactl list sink-inputs
+: 1751581988:0;pactl list short sink-inputs
+: 1751581988:0;cat .config/i3blocks/audio_output.wo_easyeffects.sh
+: 1751581988:0;wactl set-default audiobox_out_78
+: 1751581988:0;wpctl set-default audiobox_out_78
+: 1751581988:0;wpctl status
+: 1751581988:0;easy_effects
+: 1751581988:0;easyeffects
+: 1751581988:0;pkill -f easyeffects
+: 1751581988:0;ps aux | grep easyeffects
+: 1751581988:0;kill -9 1472394
+: 1751581988:0;ps aux | grep easyeffects
+: 1751581988:0;yay easyeffects-bundy01-presets
+: 1751581988:0;yay -S easyeffects-bundy01-presets
+: 1751581988:0;yay -Rns easyeffects-bundy01-presets
+: 1751581988:0;pactl set-default-sink audiobox-out-12
+: 1751581988:0;pactl 
+: 1751581988:0;pactl list
+: 1751581988:0;pactl list short sink
+: 1751581988:0;pactl list short sinks
+: 1751581988:0;wpctl set-default audiobox_out_12
+: 1751581988:0;pactl set-default-sink
+: 1751581988:0;pactl set-default-sink audiobox-out-12
+: 1751581988:0;pactl list sinks
+: 1751581988:0;vim .config/pipewire/pipewire.conf.d/effects-sink.conf
+: 1751581988:0;systemctl --user restart pipewire wireplumber
+: 1751581988:0;reboot
+: 1751581988:0;pulsemixer
+: 1751581988:0;update-pciids
+: 1751581988:0;sudo update-pciids
+: 1751581988:0;lspci -v | less
+: 1751581988:0;sudo pacman -Syu picom
+: 1751581988:0;mkdir -p ~/.config/picom
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;i3-msg restart
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;reboot
+: 1751581988:0;rofi -show drun
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;vim .config/alacritty/alacritty.toml
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1751581988:0;cd rofi
+: 1751581988:0;ls
+: 1751581988:0;chmod +x setup.sh
+: 1751581988:0;./setup.sh
+: 1751581988:0;acpi
+: 1751581988:0;cd ~/.config/rofi
+: 1751581988:0;ls
+: 1751581988:0;vim config.rasi
+: 1751581988:0;vim launchers/type-1/launcher.sh
+: 1751581988:0;launchers/type-1/launcher.sh
+: 1751581988:0;launchers/misc/launcher.sh
+: 1751581988:0;ls
+: 1751581988:0;powermenu/type-1/powermenu.sh
+: 1751581988:0;sudo pacman -S hostname
+: 1751581988:0;cat /etc/hostname
+: 1751581988:0;sudo pacman -S net-tools
+: 1751581988:0;hostname
+: 1751581988:0;sudo pacman -Rns net-tools
+: 1751581988:0;sudo pacman -S inetutils
+: 1751581988:0;hostname
+: 1751581988:0;powermenu/type-1/powermenu.sh
+: 1751581988:0;ls
+: 1751581988:0;ls scripts
+: 1751581988:0;scripts/launcher_t1
+: 1751581988:0;scripts/launcher_t2
+: 1751581988:0;scripts/launcher_t7
+: 1751581988:0;scripts/launcher_t8
+: 1751581988:0;scripts/launcher_t6
+: 1751581988:0;scripts/launcher_t5
+: 1751581988:0;scripts/launcher_t54
+: 1751581988:0;scripts/launcher_t4
+: 1751581988:0;scripts/launcher_t3
+: 1751581988:0;scripts/launcher_t2
+: 1751581988:0;cd ~/rofi
+: 1751581988:0;ls
+: 1751581988:0;cd files
+: 1751581988:0;ls
+: 1751581988:0;cd launchers
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;git pull
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf rofi
+: 1751581988:0;git clone git@github.com:dctxmei/rofi-themes.git
+: 1751581988:0;cd rofi
+: 1751581988:0;ls
+: 1751581988:0;lss
+: 1751581988:0;ls
+: 1751581988:0;cd rofi-themes
+: 1751581988:0;ls
+: 1751581988:0;./setup.sh
+: 1751581988:0;~/.config/rofi/launchers/misc/launcher.sh
+: 1751581988:0;cd ~/.config/rofi/launchers/misc
+: 1751581988:0;ls
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;cat launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;cd ..
+: 1751581988:0;cd text
+: 1751581988:0;ls
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;cd ../colorful
+: 1751581988:0;ls
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;cd ~/.config
+: 1751581988:0;ls
+: 1751581988:0;ls -la
+: 1751581988:0;rm -rf rofi
+: 1751581988:0;rm -rf rofi.old
+: 1751581988:0;d ..
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;rm -rf rofi-themes
+: 1751581988:0;rm summary-*.txt
+: 1751581988:0;cat test.sh
+: 1751581988:0;rm test.sh
+: 1751581988:0;$ git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1751581988:0;git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1751581988:0;cd rofi
+: 1751581988:0;chmod +x setup.sh
+: 1751581988:0;./setup.sh
+: 1751581988:0;cd ~/.config
+: 1751581988:0;cd rofi/launchers
+: 1751581988:0;ls
+: 1751581988:0;cd type-1
+: 1751581988:0;ls
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;cd ../type-2
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;vim launcher.sh
+: 1751581988:0;./launcher.sh
+: 1751581988:0;;
+: 1751581988:0;z
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;killall picom
+: 1751581988:0;ps aux | grep picom\
+
+: 1751581988:0;picom --config ~/.config/picom/picom.conf
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;picom --config ~/.config/picom/picom.conf
+: 1751581988:0;picom --config ~/.config/picom/picom.conf -b
+: 1751581988:0;z i3blocks
+: 1751581988:0;ls
+: 1751581988:0;mv audio_output.sh audio_output.w_easyeffects.sh
+: 1751581988:0;mv audio_output.wo_easyeffects.sh audio_output.sh
+: 1751581988:0;z picom
+: 1751581988:0;cd ~/.config/picom
+: 1751581988:0;vim picom.conf
+: 1751581988:0;z
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;i3-msg restart
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;sudo pacman -S palette
+: 1751581988:0;ls
+: 1751581988:0;palette
+: 1751581988:0;sudo pacman -S dysuk
+: 1751581988:0;sudo pacman -S dysk
+: 1751581988:0;dysk
+: 1751581988:0;sudo pacman -Rns palette
+: 1751581988:0;sudo pacman -S pastel
+: 1751581988:0;pastel
+: 1751581988:0;pastel rando
+: 1751581988:0;pastel randm
+: 1751581988:0;pastel random
+: 1751581988:0;pastel random | pastel mix -f0.7 red
+: 1751581988:0;pastel random | pastel mix -f0.7 red | pastel format hex
+: 1751581988:0;pastel random | pastel mix -f0.7 mauve | pastel format hex
+: 1751581988:0;pastel random | pastel mix -f0.7 tan | pastel format hex
+: 1751581988:0;pastel random | pastel mix -f0.7 cyan | pastel format hex
+: 1751581988:0;pastel random -n 5 --strategy lch_hue \\
+  | pastel mix white \\
+  | pastel lighten 0.2 \\
+  | pastel format hex\
+
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;pastel random
+: 1751581988:0;pastel color darkcyan | pastel format hex
+: 1751581988:0;pastel color lightseagreen | pastel format hex
+: 1751581988:0;pastel color gray
+: 1751581988:0;pastel color dimgray | pastel format hex
+: 1751581988:0;pastel
+: 1751581988:0;pastel distinct
+: 1751581988:0;pastel color midnightblue | pastel format hex
+: 1751581988:0;clear
+: 1751581988:0;pastel
+: 1751581988:0;pastel color midnightblue
+: 1751581988:0;pastel color midnightblue | pastel format hex
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;pastel color random
+: 1751581988:0;pastel random
+: 1751581988:0;pastel random | pastel mix -f0.7 pink
+: 1751581988:0;pastel 
+: 1751581988:0;pastel gradient pink neongreen
+: 1751581988:0;pastel list 
+: 1751581988:0;pastel gradient pink chartreuse
+: 1751581988:0;vim .config/i3blocks/weather.sh
+: 1751581988:0;curl -s "wttr.in"
+: 1751581988:0;date +"%a %b %d, %y %H:%M %p"
+: 1751581988:0;pastel
+: 1751581988:0;pastel lighten blue
+: 1751581988:0;pastel random | pastel lighten
+: 1751581988:0;pastel random | pastel lighten -f0.7 red
+: 1751581988:0;pastel paint
+: 1751581988:0;pastel paint red
+: 1751581988:0;pastel colorcheck
+: 1751581988:0;pastel
+: 1751581988:0;pastel complement burntorange
+: 1751581988:0;pastel list
+: 1751581988:0;pastel complement gainsboro
+: 1751581988:0;pastel complement 
+: 1751581988:0;pastel color gainsboro | pastel complement
+: 1751581988:0;man pastel
+: 1751581988:0;man tmux
+: 1751581988:0;man pastel
+: 1751581988:0;man curl
+: 1751581988:0;man date
+: 1751581988:0;man reaper
+: 1751581988:0;man hostname
+: 1751581988:0;man dig
+: 1751581988:0;man ping
+: 1751581988:0;man vim
+: 1751581988:0;pastel random
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;for i in {0..255}; do printf "\x1b[38;5;${i}mcolor${i} - âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨\n"; done
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;vim .config/vim/vimrc
+: 1751581988:0;cd .config/vim
+: 1751581988:0;ls
+: 1751581988:0;cd colors
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;cd plugged
+: 1751581988:0;ls
+: 1751581988:0;ls -a
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;cd autoload
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;ls colors
+: 1751581988:0;man vim
+: 1751581988:0;df -H
+: 1751581988:0;dysk
+: 1751581988:0;df
+: 1751581988:0;man df=\ 
+: 1751581988:0;man df
+: 1751581988:0;man dysk
+: 1751581988:0;cd ~/.mounts/dropbox
+: 1751581988:0;ls
+: 1751581988:0;reboot
+: 1751581988:0;sudo pacman -S polybar
+: 1751581988:0;mkdir -p ~/.config/polybar
+: 1751581988:0;ls ~/.config/polybar
+: 1751581988:0;ls
+: 1751581988:0;cat ~/.config/polybar/config.ini
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;xrandr
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall polybar
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;i3-msg restart
+: 1751581988:0;sh ~/.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar
+: 1751581988:0;reboot
+: 1751581988:0;tail -f /tmp/polybar.log
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;i3-msg restart
+: 1751581988:0;tail -f /tmp/polybar.log
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;killall -q polybar
+: 1751581988:0;i3-msg restart
+: 1751581988:0;man i3-msg
+: 1751581988:0;i3-msg kill
+: 1751581988:0;i3-msg quit
+: 1751581988:0;i3-msg reload
+: 1751581988:0;i3-msg exit
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;tail -f /tmp/polybar.log
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;vim .config/tmux/tmux.conf
+: 1751581988:0;i3-msg restart
+: 1751581988:0;tail -f /tmp/polybar.log
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;grep -r "Hack" .
+: 1751581988:0;grep -r "Hack" .config
+: 1751581988:0;killall -q polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar\
+
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;killall -q polybar\
+
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;/usr/share/fonts/noto/NotoColorEmoji.ttf
+: 1751581988:0;~/.local/share/fonts
+: 1751581988:0;ls
+: 1751581988:0;cd Noto_Sans
+: 1751581988:0;ls
+: 1751581988:0;~ 
+: 1751581988:0;fc-match NotoColorEmoji:size=12
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;sudo pacman -S gucharmap
+: 1751581988:0;fc-list | grep -i "Noto Color"
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;fc-list
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;fc-list JetBrains
+: 1751581988:0;fc-list | grep -i "JetBrains"
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;fc-list | grep -i "JetBrains"
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;ls ~/.config/polybar/scripts
+: 1751581988:0;rm .config/polybar/scripts/strawberry.sh
+: 1751581988:0;cp .config/i3blocks/audio_output.sh .config/i3blocks/audio_output.w_easyeffects.sh .config/i3blocks/check-arch-updates.sh .config/i3blocks/display-arch-updates.sh .config/i3blocks/music.sh .config/i3blocks/net.sh .config/i3blocks/quote.sh .config/i3blocks/switch_audio.sh .config/i3blocks/weather.sh .config/polybar/scripts/
+: 1751581988:0;ls ~/.config/polybar/scripts
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;polybar -vvv
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;ranger
+: 1751581988:0;sudo pacman -S imagemagick python-pywal
+: 1751581988:0;sudo pacman -S cairo libxcb xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
+: 1751581988:0;neofetch --w3m --source ~/Pictures/Beatles/C6THYDaMeAx/img1.jpg
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;vim .local/bin/set-random-wallpaper
+: 1751581988:0;wal -i 
+: 1751581988:0;wal -i .config/wallpapers/janos-venczak-6echUmTNkCw-unsplash.jpg
+: 1751581988:0;piom -vvv
+: 1751581988:0;picom -vvv
+: 1751581988:0;sudo pacman -Rns python-pywal
+: 1751581988:0;yay -S python-pywal16
+: 1751581988:0;sudo pacman -S dunst
+: 1751581988:0;mkdir -p ~/.config/dunst
+: 1751581988:0;cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1751581988:0;vim ~/.config/dunst/dunstrc
+: 1751581988:0;aplay -l
+: 1751581988:0;pulseaudio
+: 1751581988:0;pactl
+: 1751581988:0;pactl list
+: 1751581988:0;yay -S pulseaudio-control
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;pactl list-sinks
+: 1751581988:0;pactl list short sinks
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;FC_DEBUG=1 polybar top
+: 1751581988:0;polybar top
+: 1751581988:0;pactl list sinks
+: 1751581988:0;polybar top
+: 1751581988:0;pactl list sources short | cut -f2
+: 1751581988:0;polybar top
+: 1751581988:0;--icons-volume "ï€§ ,ï€¨ " --icon-muted "ï€¦ " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:îƒ¬­  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:îƒ¬ƒ°  Headphones" listen\
+click-right = exec pavucontrol &\
+click-left = pulseaudio-control togmute\
+click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink\
+scroll-up = pulseaudio-control --volume-max 130 up\
+scroll-down = pulseaudio-control --volume-max 130 down\
+\
+
+: 1751581988:0;pulseaudio-control --node-nicknames-from "device.description" --node-nickname "audiobox_out_12.monitor:Desktop" --node-nickname "audiobox_out_78.monitor:Tower" listen
+: 1751581988:0;polybar top
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;killall -q polybar\
+\
+
+: 1751581988:0;DEBUG=1 polybar top
+: 1751581988:0;polybar top
+: 1751581988:0;xev -event keyboard
+: 1751581988:0;lsmod | grep think
+: 1751581988:0;xmodmap -pke
+: 1751581988:0;polybar top
+: 1751581988:0;xmodmap -pke
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;xmodmap -pke | grep Audio
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;cat .config/i3/config
+: 1751581988:0;cat .local/bin/set-random-wallpaper| c
+: 1751581988:0;vim .local/bin/set-random-wallpaper
+: 1751581988:0;set-random-wallpaper
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;ln -sf ~/.cache/wal/colors-alacritty.toml ~/.config/alacritty/colors.toml
+: 1751581988:0;vim .config/alacritty/alacritty.toml
+: 1751581988:0;wal -i ~/.config/wallpapers/wallhaven-j3x6wy.png
+: 1751581988:0;vim .config/alacritty/alacritty.toml
+: 1751581988:0;wal -i ~/.config/wallpapers/wallhaven-0jmw8p.jpg
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;set-random-wallpaper
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;set-random-wallpaper 
+: 1751581988:0;sudo pacman -S autotiling nitrogen maim xdotool alsa-utils
+: 1751581988:0;whereis librewolf
+: 1751581988:0;fc-list | grep -i "CaskayadiaCove"
+: 1751581988:0;sudo pacman -S ttf-cascadia-code-nerd
+: 1751581988:0;fc-list | grep -i "CaskayadiaCove"
+: 1751581988:0;ls .local/share/fonts
+: 1751581988:0;ls
+: 1751581988:0;cd code 
+: 1751581988:0;git clone git@github.com:eliheuer/caskaydia-cove.git
+: 1751581988:0;cd caskaydia-cove
+: 1751581988:0;ls
+: 1751581988:0;cpy fonts/ttf ~/.local/share/fonts/CaskaydiaCove
+: 1751581988:0;cp fonts/ttf ~/.local/share/fonts/CaskaydiaCove
+: 1751581988:0;cp -r fonts/ttf ~/.local/share/fonts/CaskaydiaCove
+: 1751581988:0;fc-list | grep -i "CaskayadiaCove"
+: 1751581988:0;ls ~/.local/share/fonts/CaskaydiaCove
+: 1751581988:0;fc-cache -fv
+: 1751581988:0;fc-list | grep -i "CaskayadiaCove"
+: 1751581988:0;fc-list | grep -i "Caskay"
+: 1751581988:0;cd ~
+: 1751581988:0;playerctl play-pause
+: 1751581988:0;clear
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;reboo
+: 1751581988:0;reboot
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;yay -Ss picom
+: 1751581988:0;yay -Ss jonaburg
+: 1751581988:0;pacman -Qs picom
+: 1751581988:0;sudo pacman -Rns picom
+: 1751581988:0;cd code
+: 1751581988:0;rn
+: 1751581988:0;ls
+: 1751581988:0;rm -rf caskaydia-cove
+: 1751581988:0;git clone https://github.com/jonaburg/picom
+: 1751581988:0;cd picom
+: 1751581988:0;ls
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;sudo pacman -S meson ninja
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;sudo pacman -S uthash
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;sudo pacman -S cmake
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;cmake
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;sudo pacman -Ss libconfig
+: 1751581988:0;sudo pacman -S libconfig
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;ninja -C build
+: 1751581988:0;sudo ninja -C build install
+: 1751581988:0;i3-msg restart
+: 1751581988:0;picom
+: 1751581988:0;picom -vvv
+: 1751581988:0;picom
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;cd ~
+: 1751581988:0;ls
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;ps \
+
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;killall -q picom
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;i3-msg restart
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;picom
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;picom &
+: 1751581988:0;reboot
+: 1751581988:0;killall -q picom
+: 1751581988:0;picom
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;picom &
+: 1751581988:0;sudo pacman -S libx11 libx11-xcb libXext xcb xcb-damage xcb-xfixes xcb-shape xcb-renderutil xcb-render xcb-randr xcb-composite xcb-image xcb-present xcb-xinerama xcb-xcb-glx pixman libdbus libconfig libGL libpcre libev uthash
+: 1751581988:0;sudo pacman -S libx11 libxcb pcre 
+: 1751581988:0;cd code
+: 1751581988:0;ls
+: 1751581988:0;cd picom
+: 1751581988:0;ls
+: 1751581988:0;git submodule update --init --recursive
+: 1751581988:0;meson --buildtype=release . build
+: 1751581988:0;meson setup --reconfigure
+: 1751581988:0;meson setup --reconfigure .
+: 1751581988:0;rm -rf build
+: 1751581988:0;meson setup --reconfigure . build
+: 1751581988:0;ninja -C build
+: 1751581988:0;ninja -Wconversion -C build
+: 1751581988:0;ninja -w
+: 1751581988:0;ninja -w conversion -C build
+: 1751581988:0;ninja -w list
+: 1751581988:0;ls
+: 1751581988:0;cat meson.build
+: 1751581988:0;ninja -C build install
+: 1751581988:0;picom & 
+: 1751581988:0;which picom
+: 1751581988:0;sudo rm /usr/local/bin/picom*
+: 1751581988:0;sudo pacman -S picom
+: 1751581988:0;picom &
+: 1751581988:0;cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;picom &
+: 1751581988:0;ps aux | grep picom
+: 1751581988:0;killall -q picom
+: 1751581988:0;picom
+: 1751581988:0;set-random-wallpaper 
+: 1751581988:0;vim .local/bin/set-random-wallpaper
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;picom
+: 1751581988:0;picom --config ~/.config/picom/picom.conf
+: 1751581988:0;i3-msg restart
+: 1751581988:0;picom --config ~/.config/picom/picom.conf
+: 1751581988:0;vim .config/picom/picom.conf
+: 1751581988:0;vim ~/.config/picom/picom.conf
+: 1751581988:0;picom --diagnostic
+: 1751581988:0;picom
+: 1751581988:0;vim ~/.config/picom/picom.conf
+: 1751581988:0;picom
+: 1751581988:0;picom -c
+: 1751581988:0;vim ~/.config/picom/grayscale.glsl
+: 1751581988:0;picom --backend glx --window-shader-fg ~/.config/picom/grayscale.glsl
+: 1751581988:0;picom
+: 1751581988:0;vim ~/.config/picom/border_transparency.glsl
+: 1751581988:0;picom --backend glx --window-shader-fg ~/.config/picom/border_transparency.glsl
+: 1751581988:0;picom
+: 1751581988:0;i3-msg restart
+: 1751581988:0;reboot
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;xrandr
+: 1751581988:0;nvidia-settings
+: 1751581988:0;xrandr --output DP-0 --set "scaling mode" "Full aspect"
+: 1751581988:0;xrandr --output DP-0 --mode 1920x1080 --pos 0x0 --scale 1x1
+: 1751581988:0;xrandr --output DP-0 --mode 1920x1080 --pos 1920x0 --scale 1x1
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;cat .config/picom/picom.conf
+: 1751581988:0;cat .config/picom/picom.conf | radius
+: 1751581988:0;cat .config/picom/picom.conf | grep radius
+: 1751581988:0;pastel color #CBD081
+: 1751581988:0;pastel color CBD081
+: 1751581988:0;autotiling
+: 1751581988:0;ps aux | grep autotiling
+: 1751581988:0;vim --version | grep clipboard
+: 1751581988:0;sudo pacman -Rns vim
+: 1751581988:0;sudo pacman -S gvim
+: 1751581988:0;vim --version | grep clipboard
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;autotiling
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;vim .config/polybar/launch.sh
+: 1751581988:0;xrandr --query | grep " connected" | cut -d" " -f1
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;killall -q polybar
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;pkill -f polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;pkill -f polybar
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;kill 
+: 1751581988:0;kill 986
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;kill -9 986
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;ps aux | grep polybar
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;swallow 
+: 1751581988:0;sudo pacman -S swallow
+: 1751581988:0;pipx install i3-swallow
+: 1751581988:0;swallow
+: 1751581988:0;swallow nautilus
+: 1751581988:0;pipx remove i3-swallow
+: 1751581988:0;pipx uninstall i3-swallow
+: 1751581988:0;swallow
+: 1751581988:0;sudo pacman -S i3-swallow-git
+: 1751581988:0;cd /shared
+: 1751581988:0;ls
+: 1751581988:0;cd Videos
+: 1751581988:0;ls
+: 1751581988:0;mpv ExtraEmily.mp4
+: 1751581988:0;sudo pacman -S mpv
+: 1751581988:0;ps aux | swallow
+: 1751581988:0;ps aux | grep swallow
+: 1751581988:0;:kill-server
+: 1751581988:0;sudo pacman -S mpv
+: 1751581988:0;cd /shared
+: 1751581988:0;cd Videos
+: 1751581988:0;ls
+: 1751581988:0;mpv ExtraEmily.mp4
+: 1751581988:0;sudo pacman -Rns vlc
+: 1751581988:0;mpv ExtraEmily.mp4
+: 1751581988:0;swallow
+: 1751581988:0;pipx install i3-swallow
+: 1751581988:0;swallow
+: 1751581988:0;pipx install i3ipc
+: 1751581988:0;ls .config/i3
+: 1751581988:0;git clone https://github.com/jamesofarrell/i3-swallow.git ~/.config/i3/i3-swallow
+: 1751581988:0;chmod +x .config/i3/i3-swallow
+: 1751581988:0;chmod -x .config/i3/i3-swallow
+: 1751581988:0;cd .config/i3/i3-swallow
+: 1751581988:0;ls -al .config/i3
+: 1751581988:0;chmod +x .config/i3/i3-swallow
+: 1751581988:0;cd .config/i3/i3-swallow
+: 1751581988:0;/-
+: 1751581988:0;ls
+: 1751581988:0;cd i3_swallow
+: 1751581988:0;l[s
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;rm LICENSE poetry.lock pyproject.toml README.md Swallow.gif
+: 1751581988:0;mv i3_swallow/* .
+: 1751581988:0;ls
+: 1751581988:0;rmdir i3_swallow
+: 1751581988:0;rm -rf .git
+: 1751581988:0;chmod +x swallow.py
+: 1751581988:0;z
+: 1751581988:0;vim .config/i3/config
+: 1751581988:0;rm .config/i3/i3-swallow
+: 1751581988:0;rm -rf .config/i3/i3-swallow
+: 1751581988:0;vim .local/bin/nautilus-dark
+: 1751581988:0;pipx uninstall i3-swallow
+: 1751581988:0;yay -S gobble
+: 1751581988:0;gobble
+: 1751581988:0;cd code
+: 1751581988:0;git clone https://github.com/EmperorPenguin18/gobble
+: 1751581988:0;cd gobble
+: 1751581988:0;makepkg -si
+: 1751581988:0;sudo pacman -S cargo pandoc
+: 1751581988:0;sudo pacman -Syy
+: 1751581988:0;makepkg -si
+: 1751581988:0;gobble
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf gobble
+: 1751581988:0;ls
+: 1751581988:0;cd picom
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf picom
+: 1751581988:0;~
+: 1751581988:0;ranger --copy-config=all
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;ranger
+: 1751581988:0;ls
+: 1751581988:0;rm \=
+: 1751581988:0;/-
+: 1751581988:0;ls
+: 1751581988:0;cat scratch
+: 1751581988:0;ls .config/ranger
+: 1751581988:0;vim .config/ranger/commands
+: 1751581988:0;vim .config/ranger/commands.py
+: 1751581988:0;vim .config/ranger/rifle.conf
+: 1751581988:0;vim .config/i3blocks/switch_audio.sh
+: 1751581988:0;ls .config/i3blocks
+: 1751581988:0;vim .config/i3blocks/audio_output.sh
+: 1751581988:0;wpctl set-default audiobox_out_78
+: 1751581988:0;wpctl 
+: 1751581988:0;wpctl status
+: 1751581988:0;wpctl set-default 51
+: 1751581988:0;wpctl set-default 52
+: 1751581988:0;pulsemixer
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;vim .local/bin/aout
+: 1751581988:0;vim .config/polybar/scripts/audio_output.sh
+: 1751581988:0;wpctl status
+: 1751581988:0;vim .config/polybar/scripts/audio_output.sh
+: 1751581988:0;pactl list sinks
+: 1751581988:0;pactl list sinks | awk -v name="$CURRENT_SINK_NAME" -v RS= '\
+  $0 ~ ("Name: " name) {\
+    n = split($0, lines, "\n")\
+    for (i = 1; i <= n; i++) {\
+      if (lines[i] ~ /device.description =/) {\
+        match(lines[i], /device.description = "(.*)"/, m)\
+        if (m[1]) print m[1]\
+        break\
+      }\
+    }\
+  }\
+'
+: 1751581988:0;pactl list sinks | awk -v RS= '\
+    $0 ~ /device.description = "AudioBox Out/ {\
+      match($0, /Sink #[0-9]+/, m)\
+      match($0, /device.description = "(AudioBox Out [^"]+)"/, d)\
+      if (m[0] && d[1]) {\
+        sub("Sink #", "", m[0])\
+        print m[0] "|" d[1]\
+      }\
+    }\
+  '\
+
+: 1751581988:0;chmod +x .local/bin/aout
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;pactl list sinks | awk -v RS= '\
+    $0 ~ /device.description = "AudioBox Out/ {\
+      match($0, /Sink #[0-9]+/, m)\
+      match($0, /device.description = "(AudioBox Out [^"]+)"/, d)\
+      if (m[0] && d[1]) {\
+        sub("Sink #", "", m[0])\
+        print m[0] "|" d[1]\
+      }\
+    }\
+  '\
+
+: 1751581988:0;vim .local/bin/aout
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;vim .local/bin/aout
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;vim .local/bin/aout
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;vim .local/bin/aout
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;aout audiobox_out_78
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;aout audiobox_out_78
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;aout audiobox_out_12
+: 1751581988:0;vim .config/polybar/config.ini
+: 1751581988:0;reboot
+: 1751581988:0;set-random-wallpaper 
+: 1751581988:0;vim .config
+: 1751581988:0;rm .config/i3/display_setup.sh
+: 1751581988:0;vim .config/i3
+: 1751581988:0;vim .config/vim/vimrc
+: 1751581988:0;mkdir -p ~/.config/nvim/lua/{core,plugins}
+: 1751581988:0;touch .config/nvim/init.lua
+: 1751581988:0;touch .config/nvim/lua/core/{options,keymaps,lazy}.lua
+: 1751581988:0;touch .config/nvim/lua/plugins/init.lua
+: 1751581988:0;vim .config/nvim/init.lua
+: 1751581988:0;vim .config/nvim/lua/core/options.lua
+: 1751581988:0;sudo pacman -S nvim
+: 1751581988:0;update-arch
+: 1751581988:0;yay -Rns google-chrome
+: 1751581988:0;shutdown now
+: 1751581988:0;nvidia-settings
+: 1751581988:0;sudo nvidia-settings
+: 1751581988:0;reboot
+: 1751581988:0;neovim
+: 1751581988:0;sudo pacman -S nvim
+: 1751581988:0;nvim
+: 1751581988:0;vim .config/nvim/lua/core/options.lua
+: 1751581988:0;nvim
+: 1751581988:0;nvim .config/nvim/lua/core/options.lua
+: 1751581988:0;vim .config/vim/vimrc\
+
+: 1751581988:0;vim .config/nvim/
+: 1751581988:0;nvim test.js
+: 1751581988:0;vim .config/nvim/init.lua
+: 1751581988:0;nvim test.js
+: 1751581988:0;cd .config/nvim
+: 1751581988:0;ls
+: 1751581988:0;tree
+: 1751581988:0;ls
+: 1751581988:0;ls lua
+: 1751581988:0;ls lua/core
+: 1751581988:0;mv lua/core/keymaps.lua lua
+: 1751581988:0;ls lua
+: 1751581988:0;mv lua/core/options.lua lua
+: 1751581988:0;ls lua/plugins
+: 1751581988:0;mv lua/plugins/init.lua lua/plugins.lua
+: 1751581988:0;touch lua/colorscheme.lua
+: 1751581988:0;touch lua/lsp.lua
+: 1751581988:0;vim lua/keymaps.lua
+: 1751581988:0;vim .config/vim/vimrc
+: 1751581988:0;sudo pacman -S fd fzf bat
+: 1751581988:0;cd /shared/Music/Podcast
+: 1751581988:0;ls
+: 1751581988:0;cd /shared/Music/Podcast
+: 1751581988:0;ffmpeg -ss 01:41:18 ../../Videos/Beatles.64.mkv -t 23 -vn -acodec pcm_s16le -ar 44100 -ac 2 crowsnest.wav
+: 1751581988:0;cd /shared/Music/Podcast
+: 1751581988:0;ls /shared/Videos/Beatles.64.mkv
+: 1751581988:0;ffmpeg -ss 01:41:18 -i /shared/Videos/Beatles.64.mkv -t 23 -vn -acodec pcm_s16le -ar 44100 -ac 2 crowsnest.wav
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;umount .mounts/dropbox 
+: 1751581988:0;umount -f .mounts/dropbox
+: 1751581988:0;sudo umount -f .mounts/dropbox
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;reaper
+: 1751581988:0;ranger
+: 1751581988:0;fs
+: 1751581988:0;ls
+: 1751581988:0;cd .config/nvim
+: 1751581988:0;ls
+: 1751581988:0;vim init.lua
+: 1751581988:0;nvim
+: 1751581988:0;nvim .
+: 1751581988:0;rm -rf *
+: 1751581988:0;ls
+: 1751581988:0;nvim .
+: 1751581988:0;vim .config/vim/vimrc
+: 1751581988:0;nvim .
+: 1751581988:0;nvim .-
+: 1751581988:0;nvim .
+: 1751581988:0;wget https://luarocks.org/releases/luarocks-3.12.0.tar.gz
+: 1751581988:0;tar zxpf luarocks-3.12.0.tar.gz
+: 1751581988:0;cd luarocks-3.12.0
+: 1751581988:0;./configure
+: 1751581988:0;pacman -Qs lua
+: 1751581988:0;pacman -ss lua
+: 1751581988:0;pacman -Ss lua
+: 1751581988:0;./configure
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf luarocks-3.12.0
+: 1751581988:0;sudo pacman -S luarocks
+: 1751581988:0;nvim .
+: 1751581988:0;sudo pacman -S lua51
+: 1751581988:0;nvim .
+: 1751581988:0;sudo pacman -S ripgrep
+: 1751581988:0;nvim .
+: 1751581988:0;sudo pacman -S tree
+: 1751581988:0;tree .config/nvim
+: 1751581988:0;nvim .
+: 1751581988:0;vim --version
+: 1751581988:0;nvim --version
+: 1751581988:0;ls
+: 1751581988:0;rm luarocks-3.12.0.tar.gz
+: 1751581988:0;git clone https://github.com/LuaLS/lua-language-server
+: 1751581988:0;cd lua-language-server
+: 1751581988:0;./make.sh
+: 1751581988:0;~
+: 1751581988:0;rm lua-language-server
+: 1751581988:0;rm -rf lua-language-server
+: 1751581988:0;nvim .
+: 1751581988:0;tree .config/nvim
+: 1751581988:0;cd ..
+: 1751581988:0;nvim .config/nvim
+: 1751581988:0;sudo pacman -S lua-language-server
+: 1751581988:0;which lua-language-server
+: 1751581988:0;npm
+: 1751581988:0;sudo pacman -S npm
+: 1751581988:0;node --version
+: 1751581988:0;npm install -g typescript-language-server typescript
+: 1751581988:0;sudo npm install -g typescript-language-server typescript
+: 1751581988:0;sudo npm i -g vscode-langservers-extracted
+: 1751581988:0;sudo pacman -S yarn
+: 1751581988:0;sudo yarn add yaml-language-server
+: 1751581988:0;sudo npm i -g bash-language-server
+: 1751581988:0;sudo pacman -S pyright
+: 1751581988:0;go
+: 1751581988:0;rust
+: 1751581988:0;sudo pacman -S rust
+: 1751581988:0;which rust-analyzer
+: 1751581988:0;rustup
+: 1751581988:0;sudo pacman -S rustup
+: 1751581988:0;ls
+: 1751581988:0;cd go
+: 1751581988:0;ls
+: 1751581988:0;cd pkg
+: 1751581988:0;ls
+: 1751581988:0;cd mod
+: 1751581988:0;/-
+: 1751581988:0;ls
+: 1751581988:0;cd .
+: 1751581988:0;z
+: 1751581988:0;ls
+: 1751581988:0;ls node_modules
+: 1751581988:0;rm -rf node_modules
+: 1751581988:0;sudo rm -rf node_modules
+: 1751581988:0;ls
+: 1751581988:0;sudo rm package.json
+: 1751581988:0;sudo rm yarn.lock
+: 1751581988:0;curl -fsSL https://fnm.vercel.app/install | bash\
+
+: 1751581988:0;source .zshrc
+: 1751581988:0;fnm install --latest
+: 1751581988:0;fnm default latest
+: 1751581988:0;mkdir -p ~/.npm-global
+: 1751581988:0;npm config set prefix ~/.npm-global
+: 1751581988:0;nvim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;npm config get prefix
+: 1751581988:0;npm install -g typescript-language-server typescript
+: 1751581988:0;npm i -g vscode-langservers-extracted
+: 1751581988:0;npm i -g bash-language-server
+: 1751581988:0;sudo pacman -S clang
+: 1751581988:0;clangd
+: 1751581988:0;yarn config set prefix ~/.yarn-global
+: 1751581988:0;nvim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;yarn global add yaml-language-server
+: 1751581988:0;yaml-language-server
+: 1751581988:0;ls
+: 1751581988:0;nvim .zshrc
+: 1751581988:0;sudo pacman -Rns nodejs npm
+: 1751581988:0;sudo pacman -Ss node
+: 1751581988:0;sudo pacman -Rns npm
+: 1751581988:0;node --version
+: 1751581988:0;pacman -Qs node
+: 1751581988:0;sudo pacman -Rns nodejs-lts-iron
+: 1751581988:0;rm -rf ~/.fnm
+: 1751581988:0;nvim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;sudo pacman -S asdf
+: 1751581988:0;git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+: 1751581988:0;echo '. "$HOME/.asdf/asdf.sh"' >> ~/.zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;asdf plugin add nodejs https://github.com/asdf-vm-asdf-nodejs.git
+: 1751581988:0;asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+: 1751581988:0;asdf install nodejs latest
+: 1751581988:0;asdf global nodejs latest
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;which node
+: 1751581988:0;which npm
+: 1751581988:0;npm list -g --depth=0
+: 1751581988:0;which eslint
+: 1751581988:0;which prettier
+: 1751581988:0;exch $PATH
+: 1751581988:0;echo $PACH
+: 1751581988:0;echo $PATH
+: 1751581988:0;which eslint
+: 1751581988:0;npm list -g --depth=0
+: 1751581988:0;npm -g outdated --parseable | cut -d: -f2 | xargs npm -g install
+: 1751581988:0;npm i -g eslint prettier typescript typescript-language-server
+: 1751581988:0;yarn global upgrade
+: 1751581988:0;eslint
+: 1751581988:0;npm config get prefiix
+: 1751581988:0;npm config get prefix
+: 1751581988:0;ls ~/node_modules
+: 1751581988:0;ls
+: 1751581988:0;asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+: 1751581988:0;sudo pacman -S --needed base-devel libffi openssl zlib readline gdbm
+: 1751581988:0;asdf install ruby latest
+: 1751581988:0;asdf global ruby latest
+: 1751581988:0;ruby -v
+: 1751581988:0;gem -v
+: 1751581988:0;asdf plugin add python
+: 1751581988:0;asdf install python latest
+: 1751581988:0;asdf global python latest
+: 1751581988:0;asdf plugin add golang
+: 1751581988:0;asdf install golang latest
+: 1751581988:0;asdf global golang latest
+: 1751581988:0;asdf plugin add rust
+: 1751581988:0;asdf install rust latest
+: 1751581988:0;asdf global rust latest
+: 1751581988:0;sudo pacman -S libxml2 libzip libpng libjpeg-turbo libxpm freetype icu openssl curl libxslt oniguruma
+: 1751581988:0;asdf plugin add php
+: 1751581988:0;asdf install php latest
+: 1751581988:0;sudo pacman -S re2c
+: 1751581988:0;asdf install php latest
+: 1751581988:0;sudo pacman -S libpq
+: 1751581988:0;sudo pacman -S postgresql-libs
+: 1751581988:0;asdf install php latest
+: 1751581988:0;sudo pacman -S libzip
+: 1751581988:0;asdf install php latest
+: 1751581988:0;asdf global php latest
+: 1751581988:0;php --version
+: 1751581988:0;gem install --user-install solargraph
+: 1751581988:0;npm i -g dockerfile-language-server-nodejs
+: 1751581988:0;npm install -g @microsoft/compose-language-service
+: 1751581988:0;ls
+: 1751581988:0;sudo pacman -S marksman
+: 1751581988:0;nvim .config/nvim
+: 1751581988:0;npm
+: 1751581988:0;asdf current nodjs
+: 1751581988:0;asdf current nodes
+: 1751581988:0;asdf current nodejs
+: 1751581988:0;asdf current ruby
+: 1751581988:0;which npm
+: 1751581988:0;which gem
+: 1751581988:0;vim .zshrc
+: 1751581988:0;source .zshrc
+: 1751581988:0;asdf reshim nodejs ruby
+: 1751581988:0;nvim .config/nvim
+: 1751581988:0;cd code
+: 1751581988:0;ls
+: 1751581988:0;mkdir test
+: 1751581988:0;cd test
+: 1751581988:0;nvim .
+: 1751581988:0;nvim test.ts
+: 1751581988:0;nvim ~/.config/nvim
+: 1751581988:0;nvim test.ts
+: 1751581988:0;nvim ~/.config/nvim
+: 1751581988:0;nvim test.ts
+: 1751581988:0;clear
+: 1751581988:0;cd !
+: 1751581988:0;cd ~
+: 1751581988:0;cat .config/polybar/config.ini
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;fc-list | grep -i "JetBrains 
+: 1751581988:0;fc-list | grep "JetBrains Mono Medium"
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;fc-list | grep "Nerd Font"
+: 1751581988:0;fc-list | grep "Hack Nerd \
+\
+\
+"
+: 1751581988:0;fc-list | grep "Hack Nerd Font"
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;sudo pacman -S joypixels-font
+: 1751581988:0;fc-list | grep "JoyPixels"
+: 1751581988:0;pacman -Ss joypixels
+: 1751581988:0;yay -S joypixels-font
+: 1751581988:0;yay -S joypixels
+: 1751581988:0;yay -Ss joypixels
+: 1751581988:0;yay -S ttf-joypixels
+: 1751581988:0;fc-cache -fv
+: 1751581988:0;fc-list | grep "JoyPixels"
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;nvim .config/polybar
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;pulseaudio-control --node-nicknames-from "device.description" --node-nickname "audiobox_out_12.monitor:Desktop" --node-nickname "audiobox_out_78.monitor:Tower" listen
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;pulseaudio-control --node-nicknames-from "device.description" --node-nickname "audiobox_out_12.monitor:Desktop" --node-nickname "audiobox_out_78.monitor:Tower" listen
+: 1751581988:0;cat .config/polybar/config.ini
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;ls .local/bin
+: 1751581988:0;polybar-msg cmd restart
+: 1751581988:0;mpv dvd://
+: 1751581988:0;mpv br://
+: 1751581988:0;sudo pacman -S libaacs
+: 1751581988:0;mpv br://
+: 1751581988:0;sudo pacman -S libbluray libaacs
+: 1751581988:0;ls
+: 1751581988:0;unzip keydb_eng.zip -d keydb_eng
+: 1751581988:0;mkdir -p ~/.config/aacs
+: 1751581988:0;mv keydb_eng/keydb.cfg .config/aacs/KEYDB.cfg
+: 1751581988:0;bd_info
+: 1751581988:0;bd_info /dev/sr0
+: 1751581988:0;mpv br://
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;nvim .config/picom/picom.conf
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;nvim .config/i3/config
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;i3-msg restart
+: 1751581988:0;reboot
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;reboot
+: 1751581988:0;nvim .config/polybar/config.ini
+: 1751581988:0;reboot
+: 1751581988:0;cd code
+: 1751581988:0;ls
+: 1751581988:0;mkdir stems
+: 1751581988:0;cd stems
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;pip install spleeter
+: 1751581988:0;pip install --upgrade pip setuptools wheel
+: 1751581988:0;pip install spleeter
+: 1751581988:0;pip install spleeter --only-binary :all:
+: 1751581988:0;deactivate
+: 1751581988:0;rm -rf .venv
+: 1751581988:0;ls
+: 1751581988:0;asdf install python 3.8.18
+: 1751581988:0;asdf global python 3.8.18
+: 1751581988:0;python --version
+: 1751581988:0;python -m venv .venv
+: 1751581988:0;source .venv/bin/activate
+: 1751581988:0;nvim ~/.local/bin
+: 1751581988:0;cat ~/.local/bin/aout
+: 1751581988:0;ls -al
+: 1751581988:0;rm -rf .venv
+: 1751581988:0;chmod +x .local/bin/python-env-create
+: 1751581988:0;aout
+: 1751581988:0;which aout
+: 1751581988:0;which python-env-create
+: 1751581988:0;python-env-create
+: 1751581988:0;ls -al
+: 1751581988:0;rm -rf .venv
+: 1751581988:0;nvim ~/.local/bin/python-env-create
+: 1751581988:0;python-env-create
+: 1751581988:0;nvim ~/.local/bin/python-env-create
+: 1751581988:0;pip install spleeter
+: 1751581988:0;spleeter separate -p spleeter:5stems -o . /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ \(Parlophone\ BM1\ Mono\ \&\ MFSL\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/15\ I\ Should\ Have\ Known\ Better\ \[Stereo\].flac
+: 1751581988:0;mpv 15\ I\ Should\ Have\ Known\ Better\ \[Stereo\]/other.wav
+: 1751581988:0;rm -rf 15\ I\ Should\ Have\ Known\ Better\ \[Stereo\]
+: 1751581988:0;pip install demucs
+: 1751581988:0;nvim main.py
+: 1751581988:0;chmod +x main.py
+: 1751581988:0;./main.py /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ \(Parlophone\ BM1\ Mono\ \&\ MFSL\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/15\ I\ Should\ Have\ Known\ Better\ \[Stereo\].flac
+: 1751581988:0;which ffmpeg
+: 1751581988:0;ls /usr/bin/ffmpegc
+: 1751581988:0;ls /usr/bin/ffmpeg
+: 1751581988:0;cp /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ \(Parlophone\ BM1\ Mono\ \&\ MFSL\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/15\ I\ Should\ Have\ Known\ Better\ \[Stereo\].flac .
+: 1751581988:0;ls
+: 1751581988:0;./main.py 15\ I\ Should\ Have\ Known\ Better\ \[Stereo\].flac
+: 1751581988:0;mv 15\ I\ Should\ Have\ Known\ Better\ \[Stereo\].flac should.flac
+: 1751581988:0;ls
+: 1751581988:0;nvim main.py
+: 1751581988:0;./main.py should.flac
+: 1751581988:0;ls /usr/bin/ffmpeg
+: 1751581988:0;nvim main.py
+: 1751581988:0;./main.py should.flac
+: 1751581988:0;nvim main.py
+: 1751581988:0;./main.py should.flac
+: 1751581988:0;ffmpeg -i should.flac -ar 44100 -ac 2 should.wav
+: 1751581988:0;mpv should.wav
+: 1751581988:0;rm should.flac
+: 1751581988:0;./main.py should.wav
+: 1751581988:0;soundfile
+: 1751581988:0;pip install torchaudio soundfile
+: 1751581988:0;./main.py should.wav
+: 1751581988:0;ls
+: 1751581988:0;cd separated/htdemucs/
+: 1751581988:0;ls
+: 1751581988:0;rm -rf 15\ I\ Should\ Have\ Known\ Better\ \[Stereo\]
+: 1751581988:0;mpv should.wav
+: 1751581988:0;cd ../..
+: 1751581988:0;ls
+: 1751581988:0;nvim main.py
+: 1751581988:0;mpv should.wav
+: 1751581988:0;./main.py should.wav
+: 1751581988:0;nvim main.py
+: 1751581988:0;./main.py should.wav
+: 1751581988:0;demucs should.wav
+: 1751581988:0;ls
+: 1751581988:0;cd separated
+: 1751581988:0;ls
+: 1751581988:0;cd htdemucs
+: 1751581988:0;ls
+: 1751581988:0;cd should
+: 1751581988:0;ls
+: 1751581988:0;mpv other.wav
+: 1751581988:0;mpv bass.wav
+: 1751581988:0;mpv ../../../should.wav
+: 1751581988:0;mpv other.wav
+: 1751581988:0;cd ../../..
+: 1751581988:0;ls
+: 1751581988:0;cp separated/htdemucs/should/other.wav should.p2.wav
+: 1751581988:0;demucs should.p2.wav
+: 1751581988:0;cd separated/htdemucs/should.p2
+: 1751581988:0;ls
+: 1751581988:0;mpv other.wav
+: 1751581988:0;mpv drums.wav
+: 1751581988:0;cd ..
+: 1751581988:0;rm -rf should.p2
+: 1751581988:0;cd ..
+: 1751581988:0;ls
+: 1751581988:0;cd ..
+: 1751581988:0;reboot
+: 1751581988:0;nvim .config/nvim/lua/kenyon/lsp/cmp.lua
+: 1751581988:0;nvim code/test/test.ts
+: 1751581988:0;mkdir -p ~/dotfiles
+: 1751581988:0;cd dotfiles
+: 1751581988:0;git init
+: 1751581988:0;nvim .
+: 1751581988:0;git status
+: 1751581988:0;git branch -M main
+: 1751581988:0;git remote add origin git@github.com:kenyon-rosewall/dotfiles.git
+: 1751581988:0;git push -u origin main
+: 1751581988:0;touch .chezmoi.toml
+: 1751581988:0;touch install.sh
+: 1751581988:0;chmod +x install.sh
+: 1751581988:0;touch README.md
+: 1751581988:0;mkdir {.config,.local}
+: 1751581988:0;mkdir .local/bin
+: 1751581988:0;cp ~/.local/bin/* .local/bin
+: 1751581988:0;ls
+: 1751581988:0;ls .local/bin
+: 1751581988:0;sudo pacman -S chezmoi
+: 1751581988:0;nvim .
+: 1751581988:0;./install.sh
+: 1751581988:0;chezmoi init --source ~/dotfiles --apply
+: 1751581988:0;chezmoi config sourceDir ~/dotfiles
+: 1751581988:0;man chezmoi
+: 1751581988:0;chezmoi
+: 1751581988:0;chezmoi data | grep sourceDir
+: 1751581988:0;ls
+: 1751581988:0;nvim .
+: 1751581988:0;chezmoi init --source ~/dotfiles
+: 1751581988:0;nvim ~/.config/chezmoi
+: 1751581988:0;ls ~/.config/chezmoi
+: 1751581988:0;mkdir -p .config/chezmoi
+: 1751581988:0;cat << 'EOF' > .config/chezmoi/chezmoi.toml\
+sourceDir = "~/dotfiles"\
+EOF
+: 1751581988:0;chezmoi apply
+: 1751581988:0;ls ~/.config/chezmoi
+: 1751581988:0;cat .config/chezmoi/chezmoi.toml 
+: 1751581988:0;nvim .config/chezmoi/chezmoi.toml
+: 1751581988:0;chezmoi add ~/.bashrc
+: 1751581988:0;ls
+: 1751581988:0;ls -ra
+: 1751581988:0;ls .local
+: 1751581988:0;ls .config
+: 1751581988:0;ls -la .config
+: 1751581988:0;ls ~/.local/share/chezmoi
+: 1751581988:0;chezmoi -n appy
+: 1751581988:0;chezmoi -n apply
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;~
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;cd .mounts/dropbox/The\ Beatles\ Note\ By\ Note/Edits/mp3s
+: 1751581988:0;ls
+: 1751581988:0;mpv The\ Beatles\ Note\ By\ Note\ Podcast\ -\ LS049\ -\ Like\ Dreamers\ Do\ -\ Lecture\ Series\ \(bonus\).mp3
+: 1751581988:0;systemctl --user restart rclone-dropbox.service
+: 1751581988:0;systemctl --user status rclone-dropbox.service
+: 1751581988:0;cd ~
+: 1751581988:0;getty https://www.gettyimages.com/detail/news-photo/pop-singers-peter-and-gordon-raising-a-toast-news-photo/2661309\?adppopup\=true
+: 1751581988:0;cd code/getty
+: 1751581988:0;ls
+: 1751581988:0;./getty https://www.gettyimages.com/detail/news-photo/pop-singers-peter-and-gordon-raising-a-toast-news-photo/2661309\?adppopup\=true
+: 1751581988:0;./getty https://www.gettyimages.com/detail/news-photo/pop-singers-peter-and-gordon-raising-a-toast-news-photo/2661309
+: 1751581988:0;.venv/bin/activate
+: 1751581988:0;dwebp
+: 1751581988:0;cd ~/Downloads
+: 1751581988:0;dwebp WF01NSQcywjsdrhaRg5vqsndmwwdJXGY61L7lZgRQO4.webp -o peterandgordon3.png
+: 1751581988:0;echo $XDG_CONFIG_HOME
+: 1751581988:0;/run/user/$(id -u)
+: 1751581988:0;id -u
+: 1751581988:0;echo $XDG_CACHE_HOME
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" -not -name ".config" -not -name ".local"\
+
+: 1751581988:0;cd ~
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" -not -name ".config" -not -name ".local"\
+
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" -not -name ".config" -not -name ".local" | c\
+
+: 1751581988:0;mkdir -p ~/.config/zsh
+: 1751581988:0;mv .zshrc ~/.config/zsh/zshrc
+: 1751581988:0;mv ~/.p10k.zsh ~/.config/zsh/p10k.zsh 2>/dev/null
+: 1751581988:0;mv ~/.zsh ~/.config/zsh/zsh 2>/dev/null
+: 1751581988:0;mv .zsh_history ~/.config/zsh/.zsh_history 2>/dev/null
+: 1751581988:0;echo $XDG_CACHE_HOME
+: 1751581988:0;echo $HISTFILE
+: 1751581988:0;echo $0
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;ls .config
+: 1751581988:0;nvim .config/git
+: 1751581988:0;cat .config/git/config
+: 1751581988:0;cat .config/git/config|c
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" -not -name ".config" -not -name ".local"\
+
+: 1751581988:0;ls -la .gitconfig
+: 1751581988:0;rm .shell.pre-oh-my-zsh
+: 1751581988:0;mkdir -p ~/.config/bash
+: 1751581988:0;mv ~/.bashrc .config/bash/bashrc 2>/dev/null
+: 1751581988:0;mv .bash_profile .config/bash/bash_profile 2>/dev/null
+: 1751581988:0;mv .bash_logout .config/bash/bash_logout 2>/dev/null
+: 1751581988:0;cat > ~/.bashrc <<'EOF'\
+export XDG_CONFIG_HOME="$HOME/.config"\
+[ -f "$XDG_CONFIG_HOME/bash/bashrc" ] && source "$XDG_CONFIG_HOME/bash/bash_profile"\
+EOF
+: 1751581988:0;cat > ~/.bash_profile <<'EOF'\
+export XDG_CONFIG_HOME="$HOME/.config"\
+[ -f "$XDG_CONFIG_HOME/bash/bash_profile" ] && source "$XDG_CONFIG_HOME/bash/bash_profile"\
+EOF
+: 1751581988:0;nvim .bashrc
+: 1751581988:0;cat > ~/.bash_logout <<'EOF'\
+export XDG_CONFIG_HOME="$HOME/.config"\
+[ -f "$XDG_CONFIG_HOME/bash/bash_logout" ] && source "$XDG_CONFIG_HOME/bash/bash_logout"\
+EOF
+: 1751581988:0;mv ~/.oh-my-zsh ~/.local/share/oh-my-zsh
+: 1751581988:0;nvim .config/zsh/.zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;mkdir -p .config/zsh/custom/{plugins,themes}
+: 1751581988:0;mv .local/share/oh-my-zsh/custom/plugins .config/zsh/custom/plugins
+: 1751581988:0;ls .config/zsh/custom/plugins
+: 1751581988:0;ls .config/zsh/custom/plugins/plugins
+: 1751581988:0;mv .config/zsh/custom/plugins/plugins/* .config/zsh/custom/plugins
+: 1751581988:0;ls .config/zsh/custom/plugins/plugins
+: 1751581988:0;ls .config/zsh/custom/plugins/
+: 1751581988:0;rmdir .config/zsh/custom/plugins/plugins
+: 1751581988:0;mv .local/share/oh-my-zsh/custom/themes/* .config/zsh/custom/themes
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;find ~ -maxdepth 1 -type l -name ".*" -exec bash -c 'for f; do target=$(readlink -f "$f"); [[ "$target" == "$HOME/.config/"* ]] && echo "$f -> $target"; done' _ {} +\
+
+: 1751581988:0;[200~find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+| c
+: 1751581988:0;echo $VST_DIR
+: 1751581988:0;echo $VSTDIR
+: 1751581988:0;echo $VST3_DIR
+: 1751581988:0;cat .zsh_history
+: 1751581988:0;cat .config/zsh/.zsh_history
+: 1751581988:0;rm .zsh_history
+: 1751581988:0;echo $VST3_USER_LOCATION
+: 1751581988:0;mv ~/.vst3 ~/.local/share/vst3
+: 1751581988:0;ln -s ~/.local/share/vst3 ~/.vst3
+: 1751581988:0;echo $VST3_PLUGINS_DIR
+: 1751581988:0;mkdir -p ~/.local/state/{wget,less,python}
+: 1751581988:0;mv .wget-hsts .local/state/wget/hsts 2>/dev/null
+: 1751581988:0;mv .lesshst .local/state/less/history 2>/dev/null
+: 1751581988:0;mv .python_history .local/state/python/history 2>/dev/null
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;nvim .config/zsh/.zshrc c
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort | c
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;python
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;rm .python_history
+: 1751581988:0;exec zsh
+: 1751581988:0;python
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;exec zsh
+: 1751581988:0;python
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;rm .python_history
+: 1751581988:0;exec zsh
+: 1751581988:0;python
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;rm .python_history
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;exec zsh
+: 1751581988:0;python
+: 1751581988:0;find ~ -maxdepth 1 -name ".*" ! -name "." ! -name ".." | while read -r f; do\
+  if [ -L "$f" ]; then\
+    printf "%-40s -> %s\n" "$(basename "$f")" "$(readlink -f "$f")"\
+  else\
+    printf "%-40s\n" "$(basename "$f")"\
+  fi\
+done | sort\
+
+: 1751581988:0;env|grep PYTHONHISTFILE
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;exec zsh
+: 1751581988:0;ls .python*
+: 1751581988:0;rm .python_history
+: 1751581988:0;ls .python*
+: 1751581988:0;python
+: 1751581988:0;ls .python*
+: 1751581988:0;rm .python_history
+: 1751581988:0;systemctl --user restart
+: 1751581988:0;systemctl --user restart i3
+: 1751581988:0;systemctl --user restart gdm
+: 1751581988:0;reboot
+: 1751581988:0;ls -la
+: 1751581988:0;omz update
+: 1751581988:0;ls -la
+: 1751581988:0;echo $PATH
+: 1751581988:0;echo $XDG_CACHE_HOME
+: 1751581988:0;cat .config/zsh/.zshenv
+: 1751581988:0;echo $HSTS_FILE
+: 1751581988:0;cat .config/zsh/.zshrc
+: 1751581988:0;echo $FZF_DEFAULT_COMMAND
+: 1751581988:0;echo $ZSH_TMUX_AUTOSTART
+: 1751581988:0;exec zsh
+: 1751581988:0;source .config/zsh/.zshrc
+: 1751581988:0;echo $ZDOTDIR
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;echo $ZDOTDIR\
+ls $ZDOTDIR/.zshrc
+: 1751581988:0;echo $ZDOTDIR
+: 1751581988:0;ls $ZDOTDIR/.zshrc
+: 1751581988:0;echo $-
+: 1751581988:0;grep 'command' .config/alacritty/alacritty.toml
+: 1751581988:0;grep 'program' .config/alacritty/alacritty.toml
+: 1751581988:0;cat .config/alacritty/alacritty.toml
+: 1751581988:0;ls -l ~/.config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;.config/polybar/launch.sh
+: 1751581988:0;cat .profile
+: 1751581988:0;cat .zshenv
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;
+: 1751581988:0;exec zsh
+: 1751581988:0;
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;sudo pacman -Rns pyenv
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;exec zsh
+: 1751581988:0;
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;
+: 1751581988:0;exec zsh
+: 1751581988:0;
+: 1751581988:0;tmux kill-server
+: 1751581988:0;
+: 1751581988:0;exec zsh
+: 1751581988:0;
+: 1751581988:0;
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;tmux kill-server
+: 1751581988:0;ls .zsh
+: 1751581988:0;ls .zsh*
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;ls .config/zsh
+: 1751581988:0;ls -la .config/zsh
+: 1751581988:0;ls -la .config/zsh/zsh
+: 1751581988:0;tree
+: 1751581988:0;tree .
+: 1751581988:0;tree .config/zsh
+: 1751581988:0;man tree
+: 1751581988:0;tree -L 2
+: 1751581988:0;tree -L 2.config/zsh
+: 1751581988:0;tree -L 2 .config/zsh
+: 1751581988:0;man tree
+: 1751581988:0;tree -a -L 2 .config/zsh
+: 1751581988:0;cat .config/zsh/.zshenv
+: 1751581988:0;cat .config/zsh/.zshenv|c
+: 1751581988:0;ls ~/.cache/zsh
+: 1751581988:0;mv .config/zsh/zsh .cache
+: 1751581988:0;ls .cache/zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;ls .config/zsh
+: 1751581988:0;rm ~/.config/zsh/.zcompdump*
+: 1751581988:0;ls .cache
+: 1751581988:0;ls .local/share/oh-my-zsh
+: 1751581988:0;ls .local/share/oh-my-zsh/plugins/
+: 1751581988:0;mv ~/.local/share/oh-my-zsh ~/.config/zsh/oh-my-zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;tree -a -L 2 .config/zsh
+: 1751581988:0;tree -a -L 2 .cache/zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;ls .cache/zsh
+: 1751581988:0;ls -al .cache/zsh
+: 1751581988:0;ls -al .cache/zsh/cache
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;ls .config/zsh/oh-my-zsh/plugins
+: 1751581988:0;ls .config/zsh/custom/plugins
+: 1751581988:0;rm -rf .config/zsh/oh-my-zsh
+: 1751581988:0;ZSH=$XDG_CONFIG_HOME/zsh/oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\
+
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshrc.pre-oh-my-zsh
+: 1751581988:0;rm .config/zsh/.zshrc 
+: 1751581988:0;mv .config/zsh/.zshrc.pre-oh-my-zsh .config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;ps -p $$ -o args= && echo "--- Sourced Files ---" && zsh -xvc exit 2>&1 | grep '\.plugin\.zsh'\
+
+: 1751581988:0;ls .config/zsh/custom/plugins
+: 1751581988:0;tmux kill-server
+: 1751581988:0;exit
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;echo $ZSH_TMUX_AUTOSTART
+: 1751581988:0;reboot
+: 1751581988:0;tmux ls
+: 1751581988:0;.config/polybar/launch.sh\
+
+: 1751581988:0;exec zsh
+: 1751581988:0;ls .config/zsh/.zprofile
+: 1751581988:0;ls .zprofile
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;ls -al .cache/zsh/
+: 1751581988:0;ls -al .config/zsh/
+: 1751581988:0;cat .config/zsh/.zshrc | c
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;ls -al .cache/zsh/
+: 1751581988:0;ls -al .config/zsh/
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;rm .config/zsh/.zcompdump*
+: 1751581988:0;ls -al .config/zsh/
+: 1751581988:0;ls -al .cache/zsh
+: 1751581988:0;ls -al .cache/zsh/cache
+: 1751581988:0;ls -al .cache/zsh
+: 1751581988:0;ls -al .config/zsh
+: 1751581988:0;vim .config/zsh/.zshrc
+: 1751581988:0;echo $ZSH_COMPDUMP
+: 1751581988:0;vim .config/zsh/.zshrc
+: 1751581988:0;echo $XDG_CACHE_HOME
+: 1751581988:0;vim .config/zsh/.zshrc
+: 1751581988:0;tmux kill-server
+: 1751581988:0;echo $ZSH_COMPDUMP
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;exec zsh
+: 1751581988:0;rm .config/zsh/.zcompdump*
+: 1751581988:0;ls .config/zsh
+: 1751581988:0;ls -al .config/zsh
+: 1751581988:0;ls -al .cache/zsh
+: 1751581988:0;whereis python
+: 1751581988:0;which python
+: 1751581988:0;which dysk
+: 1751581988:0;echo $PATH
+: 1751581988:0;cat .config/zsh/.zshenv
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;tmux kill-server
+: 1751581988:0;exec zsh
+: 1751581988:0;ps -o pid,ppid,command -p $$
+: 1751581988:0;pstree -s $$
+: 1751581988:0;tmux info
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;tmux kill-server
+: 1751581988:0;exit
+: 1751581988:0;exec zsh
+: 1751581988:0;tmux kill-server
+: 1751581988:0;nvim .config/zsh/.zshrc
+: 1751581988:0;nvim .config/zsh/.zshenv
+: 1751581988:0;reboot
+: 1751581988:0;which tmux
+: 1751581988:0;which dysk
+: 1751581988:0;dysk
+: 1751581988:0;cat /etc/systemd/system/display-manager.service
+: 1751581988:0;sudo systemctl disable ly
+: 1751581988:0;sudo pacman -R ly
+: 1751581988:0;sudo pacman -S greetd gtkgreet
+: 1751581988:0;sudo pacman -S greetd
+: 1751581988:0;yay -S gtkgreet
+: 1751581988:0;pacman -Ss gtkgreet
+: 1751581988:0;sudo pacman -S greetd-gtkgreet
+: 1751581988:0;sudo mkdir -p /etc/greetd
+: 1751581988:0;sudo vim /etc/greetd
+: 1751581988:0;sudo useradd -M -N -r -s /usr/bin/nologin greeter
+: 1751581988:0;sudo systemctl enable greetd
+: 1751581988:0;sudo reboot
+: 1751581988:0;sudo systemctl disable greetd
+: 1751581988:0;startx
+: 1751581988:0;cat ~/.xinitrc
+: 1751581988:0;sud osurmod -aG video,tty $(whoami)
+: 1751581988:0;sudo usermod -aG video,tty $(whoami)
+: 1751581988:0;tty
+: 1751581988:0;ls -l $(tty)
+: 1751581988:0;tty
+: 1751581988:0;tmux kill-server
+: 1751581988:0;tty
+: 1751581988:0;ZDOTDIR=/tmp zsh
+: 1751581988:0;startx
+: 1751581988:0;tty
+: 1751581988:0;tmux kill-server
+: 1751581988:0;mv ~/.config/zsh/.zshrc ~/.config/zsh/.zshrc.bak
+: 1751581988:0;tmux kill-server
+: 1751581988:0;mv .config/zsh/.zshrc.bak .config/zsh/.zshrc
+: 1751581988:0;exit
+: 1751581988:0;sudo systemctl disable greetd
+: 1751581988:0;sudo pacman -Rns greetd greetd-gtkgreet cage
+: 1751581988:0;sudo pacman -Rns greetd greetd-gtkgreet
+: 1751581988:0;sudo userdel greeter
+: 1751581988:0;sud rm -rf /etc/greetd
+: 1751581988:0;sudo rm -rf /etc/greetd
+: 1751581988:0;sudo pacman -S lightdm lightdm-webkit2-greeter
+: 1751581988:0;sudo vim /etc/lightdm/lightdm.conf
+: 1751581988:0;ls /usr/share/lightdm-webkit/themes
+: 1751581988:0;ls /usr/share/lightdm-webkit/themes/_vendor
+: 1751581988:0;yay -S lightdm-webkit-theme-litarvan
+: 1751581988:0;sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf
+: 1751581988:0;lightdm-webkit2-greeter --test-mode --dubeg
+: 1751581988:0;lightdm-webkit2-greeter --test-mode --debug
+: 1751581988:0;WEBKIT_DISABLE_COMPOSITING_MODE=1 lightdm-webkit2-greeter --test-mode --debug\
+
+: 1751581988:0;startx
+: 1751581988:0;mv .config/zsh/.zshrc.bak .config/zsh/.zshrc
+: 1751581988:0;mv ~/.config/zsh/.zshrc ~/.config/zsh/.zshrc.bak
+: 1751581988:0;tmux kill-server
+: 1751581988:0;mv .config/zsh/.zshrc.bak .config/zsh/.zshrc
+: 1751581988:0;exit
+: 1751581988:0;WEBKIT_DISABLE_COMPOSITING_MODE=1 lightdm-webkit2-greeter --test-mode --debug\
+
+: 1751581988:0;sudo systemctl enable lightdm
+: 1751581988:0;sudo reboot
+: 1751581988:0;mv .config/zsh/.zshrc .config/zsh/.zshrc.bak
+: 1751581988:0;tmux kill-server
+: 1751581988:0;sudo pacman -S --needed lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
+: 1751581988:0;sudo vim /etc/lightdm/lightdm.conf
+: 1751581988:0;sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf 
+: 1751581988:0;man lightdm
+: 1751581988:0;man dm-tool
+: 1751581988:0;GDK_BACKEND=x11 lightdm-webkit2-greeter\
+
+: 1751581988:0;lspci | grep -E "VGA|3D"
+: 1751581988:0;glxinfo | grep "OpenGL renderer"
+: 1751581988:0;sudo pacman -S glxiinfo
+: 1751581988:0;mesa-utils
+: 1751581988:0;sudo pacman -S mesa nvidia-utils
+: 1751581988:0;glxinfo
+: 1751581988:0;glxgears
+: 1751581988:0;eglinfo -B
+: 1751581988:0;sudo pacman -S mesa-utils
+: 1751581988:0;glxinfo
+: 1751581988:0;glxinfo | grep "OpenGL renderer"
+: 1751581988:0;lsmod | grep -E "nvidia|nouveau|i915|amdgpu"
+: 1751581988:0;pacman -Qs 'nvidia|mesa|xf86-video|intel'\
+
+: 1751581988:0;clear
+: 1751581988:0;pacman -Qs 'nvidia|mesa|xf86-video|intel'
+: 1751581988:0;GDK_BACKEND=x11 lightdm-webkit2-greeter\
+
+: 1751581988:0;sudo tree /boot
+: 1751581988:0;sudo vim /etc/default/grub
+: 1751581988:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1751581988:0;sudo reboot
+: 1751581988:0;sudo vim /etc/environment
+: 1751581988:0;sudo vim /etc/lightdm/lightdm.conf
+: 1751581988:0;sudo reboot
+: 1751581988:0;mv .config/zsh/.zshrc.bak .config/zsh/.zshrc
+: 1751581988:0;exit
+: 1750711625:0;ls
+: 1750711631:0;cat install.sh
+: 1750711636:0;rm install.sh
+: 1750711644:0;rm keydb_eng.zip
+: 1750711651:0;rm -rf keydb_eng
+: 1750711653:0;ls
+: 1750711667:0;$ git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1750711677:0;git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1750711681:0;cd rofi
+: 1750711682:0;ls
+: 1750711686:0;tree
+: 1750711713:0;nvim .config/i3/config
+: 1750711723:0;nvim ~/.config/i3/config
+: 1750711831:0;~/.config/rofi/powermenu/type-3/powermenu.sh
+: 1750711845:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750711884:0;sudo pacman -S accountsservice
+: 1750711974:0;cd ~/Downloads
+: 1750712023:0;convert bert.jpg -resize 96x96^ -gravity center -extent 96x96 ~/.face
+: 1750712036:0;ls ~/.face
+: 1750712090:0;file ~/.face
+: 1750712107:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750712116:0;cd ~-
+: 1750712119:0;cd ~
+: 1750712134:0;nvim .config/rofi/powermenu/type-4/powermenu.sh 
+: 1750712178:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750712185:0;nvim .config/rofi/powermenu/type-4/powermenu.sh 
+: 1750712199:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750712204:0;nvim .config/rofi/powermenu/type-4/powermenu.sh 
+: 1750712225:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750712229:0;nvim .config/rofi/powermenu/type-4/powermenu.sh 
+: 1750712262:0;~/.config/rofi/powermenu/type-4/powermenu.sh
+: 1750712277:0;~/.config/rofi/powermenu/type-5/powermenu.sh
+: 1750712305:0;nvim .config/rofi/powermenu/type-5/powermenu.sh 
+: 1750712316:0;~/.config/rofi/powermenu/type-5/powermenu.sh
+: 1750712336:0;nvim .config/rofi/powermenu/type-3/powermenu.sh 
+: 1750712346:0;~/.config/rofi/powermenu/type-3/powermenu.sh
+: 1750712352:0;nvim .config/rofi/powermenu/type-3/powermenu.sh 
+: 1750712358:0;~/.config/rofi/powermenu/type-3/powermenu.sh
+: 1750712364:0;nvim .config/rofi/powermenu/type-3/powermenu.sh 
+: 1750712371:0;~/.config/rofi/powermenu/type-3/powermenu.sh
+: 1750712383:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1750712391:0;nvim .config/rofi/powermenu/type-2/powermenu.sh 
+: 1750712403:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1750712408:0;nvim .config/rofi/powermenu/type-2/powermenu.sh 
+: 1750712420:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1750712423:0;nvim .config/rofi/powermenu/type-2/powermenu.sh 
+: 1750712432:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1750712435:0;nvim .config/rofi/powermenu/type-2/powermenu.sh 
+: 1750712443:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1750712466:0;nvim .config/i3/config
+: 1750712695:0;sudo pacman -S betterlockscreen
+: 1750712739:0;yay -S betterlockscreen
+: 1750712867:0;nautilus-dark /usr/share/backgrounds
+: 1750713083:0;betterlockscreen -u /usr/share/lightdm-webkit/themes/litarvan/img/background.b9890328.png
+: 1750713105:0;betterlockscreen -l blur
+: 1750713145:0;cat .config/i3/config
+: 1750713173:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750713259:0;cat .config/rofi/powermenu/type-2/powermenu.sh
+: 1750713263:0;cat .config/rofi/powermenu/type-2/powermenu.sh | c
+: 1750713295:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750713676:0;.config/rofi/powermenu/type-2/powermenu.sh
+: 1750713682:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750713703:0;.config/rofi/powermenu/type-2/powermenu.sh
+: 1750713751:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750713901:0;.config/rofi/powermenu/type-2/powermenu.sh
+: 1750713904:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750714048:0;.config/rofi/powermenu/type-2/powermenu.sh
+: 1750714234:0;nvim .local/bin/sleep-screen
+: 1750714250:0;chmod +x .local/bin/sleep-screen
+: 1750714263:0;nvim .config/rofi/powermenu/type-2/powermenu.sh
+: 1750714300:0;journalctl -b- 1 -e
+: 1750714304:0;journalctl -b -1 -e
+: 1750714361:0;sudo vim /etc/default/grub
+: 1750714602:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1750714608:0;sudo reboot
+: 1750714744:0;journalctl -b -1 -e
+: 1750719945:0;sudo systemd-analyze blame
+: 1750719959:0;sudo systemd-analyze shutdown-blame
+: 1750720031:0;sudo systemd-analyze shutdown
+: 1750720167:0;ls
+: 1750720172:0;rm -rf rofi
+: 1750720179:0;git clone https://github.com/vinceliuice/grub2-themes.git ~/grub2-themes\
+cd ~/grub2-themes\
+
+: 1750720194:0;sudo ./install.sh -t stylish
+: 1750720225:0;grep GRUB_THEME /etc/default/grub
+: 1750720669:0;cd ~
+: 1750721813:0;rm .vimrc
+: 1750721820:0;nvim .vimrc
+: 1750721891:0;cd .config/vim
+: 1750721891:0;ls
+: 1750721894:0;git status
+: 1750721908:0;rm -rf .git
+: 1750721909:0;ls
+: 1750721927:0;tree -a -L 2 .
+: 1750721934:0;tree -a .
+: 1750722184:0;rm -rf autoload
+: 1750722188:0;rm -rf backup
+: 1750722191:0;rm -rf colors
+: 1750722194:0;rm -rf plugged
+: 1750722197:0;rm .gitignore
+: 1750722200:0;rm install-fonts.sh
+: 1750722204:0;rm README.md
+: 1750722216:0;tree -a .
+: 1750722227:0;nvim vimrc
+: 1750722574:0;vim vimrc
+: 1750722806:0;echo $TERM
+: 1750722837:0;vim vimrc
+: 1750723760:0;mkdir -p ~/.cache/vim/{backup,swap,undo,view}
+: 1750723768:0;cat vimrc | c
+: 1750723813:0;vim vimrc
+: 1750724172:0;sudo mkdir -p /root/.config/vim
+: 1750724191:0;sudo mkdir -p /root/.cache/vim/{backup,swap,undo,view}
+: 1750724220:0;sudo ln -s /home/krosewall/.config/vim/vimrc /root/.config/vim/vimrc
+: 1750724304:0;getent passwd root
+: 1750724316:0;su
+: 1751581988:0;cd ~
+: 1751581988:0;ls -al
+: 1751581988:0;vim .bashrc
+: 1751581988:0;vim .vimrc
+: 1751581988:0;vim .bashrc
+: 1751581988:0;source .bashrc
+: 1751581988:0;vim .bashrc 
+: 1751581988:0;exit
+: 1750814237:0;cd ../polybar
+: 1750814238:0;vim .
+: 1750814326:0;.config/polybar/launch.sh\
+
+: 1750814348:0;nvim .
+: 1750814433:0;.config/polybar/launch.sh\
+
+: 1750815489:0;i3-msg restart
+: 1750815516:0;.config/polybar/launch.sh\
+
+: 1750823119:0;ytget https://www.youtube.com/watch\?v\=IeVK5xm_Z2I
+: 1750825856:0;clear
+: 1750825859:0;cd Downloads
+: 1750825860:0;ls
+: 1750825867:0;unzip --help
+: 1750825962:0;unzip The\ Beatles_\ Note\ By\ Note-20250625T042918Z-1-001.zip -d NoteByNoteDrive
+: 1750827562:0;nvim /boot/grub/themes/starfield
+: 1750827658:0;nvim .config/nvim/lua/kenyon/keymaps.lua
+: 1750983452:0;clit
+: 1750983755:0;nvim .config/i3/config
+: 1750983791:0;.config/polybar/launch.sh\
+
+: 1750993745:0;cd code/stems/ls
+: 1750993748:0;cd code/stems/
+: 1750993751:0;ls
+: 1750993754:0;cat main.py
+: 1750993799:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ II\ \(Parlophone\ BM1\ Mono\ \&\ BC13\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/04\ I_m\ Happy\ Just\ To\ Dance\ With\ You\ \[Mono\].flac
+: 1750993806:0;.venv/bin/activate
+: 1750993810:0;source .venv/bin/activate
+: 1750993812:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ II\ \(Parlophone\ BM1\ Mono\ \&\ BC13\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/04\ I_m\ Happy\ Just\ To\ Dance\ With\ You\ \[Mono\].flac
+: 1750993818:0;ls
+: 1750995676:0;~
+: 1750995682:0;.config/polybar/launch.sh\
+
+: 1750995831:0;nvim .config/picom/picom.conf
+: 1750996129:0;ls
+: 1750996148:0;cd code
+: 1750996149:0;ls
+: 1750996155:0;git clone https://github.com/Arian8j2/picom-jonaburg-fix.git ~/.config/picom/picom-animations-src\
+
+: 1750996165:0;ls
+: 1750996274:0;rm -rf ~/.config/picom/picom-animations-src
+: 1750996311:0;git clone https://github.com/Arian8j2/picom-jonaburg-fix.git picom-animations\
+cd picom-animations\
+
+: 1750996320:0;ls
+: 1750996351:0;meson setup --buildtype=release build
+: 1750996360:0;ninja -C build
+: 1751056277:0;reboot
+: 1751150444:0;.config/polybar/launch.sh\
+\
+
+: 1751154578:0;cryptclear
+: 1751154579:0;clear
+: 1751154589:0;xprop | grep WM_CLASS
+: 1751154675:0;nvim .config/i3/config
+: 1751154940:0;xdpyinfo | grep dimensions
+: 1751155103:0;nvim .config/i3/resize-float-center.sh
+: 1751155316:0;chmod +x .config/i3/resize-float-center.sh
+: 1751155335:0;nvim .config/i3/config
+: 1751155546:0;ps aux | grep plexamp
+: 1751155781:0;nvim .config/i3/config
+: 1751156063:0;nvim .config/picom/picom.conf
+: 1751235908:0;cd code/picom-animations
+: 1751235915:0;sudo ninja -C build install
+: 1751235936:0;ls /usr/bin/picom
+: 1751235944:0;ls -l /usr/bin/picom
+: 1751235960:0;ls -l /usr/local/bin/picom
+: 1751236010:0;z
+: 1751236020:0;nvim .config/i3/config
+: 1751236087:0;nvim .config/picom/picom.conf
+: 1751236212:0;reboot
+: 1751236548:0;cd code
+: 1751236552:0;cd picom-animation
+: 1751236553:0;cd picom-animations
+: 1751236554:0;ls
+: 1751236567:0;git remotes -l
+: 1751236571:0;git remote -l
+: 1751236587:0;git remote show
+: 1751236593:0;git remote show -l
+: 1751236600:0;git remote -v
+: 1751236652:0;ps aux | grep picom
+: 1751236668:0;nvim .config/i3/config
+: 1751236674:0;z
+: 1751236680:0;nvim .config/i3/config
+: 1751236691:0;picom-trans
+: 1751236717:0;cat .config/i3/config
+: 1751236742:0;picom-trans --config $HOME/picom/picom.conf
+: 1751236761:0;picom-trans --config $HOME/.config/picom/picom.conf
+: 1751236771:0;picom-trans
+: 1751236779:0;nvim .config/picom/picom.conf
+: 1751236829:0;picom-trans
+: 1751236838:0;man picom-trans
+: 1751236873:0;whereis picom-trans
+: 1751236876:0;whereis picom
+: 1751236884:0;man picom
+: 1751236904:0;yay -Rns picom
+: 1751236912:0;whereis picom
+: 1751236925:0;whereis picom-inspect
+: 1751236929:0;whereis picom-trans
+: 1751236943:0;sudo rm /usr/local/bin/picom*
+: 1751236956:0;cd code
+: 1751236960:0;rm -rf picom-animations
+: 1751236993:0;git clone git@github.com:Arian8j2/picom-jonaburg-fix.git
+: 1751236999:0;cd picom-jonaburg-fix
+: 1751237001:0;ls
+: 1751237014:0;meson --buildtype=release . build
+: 1751237030:0;ninja -C build
+: 1751237037:0;sudo ninja -C build install
+: 1751237040:0;picom
+: 1751237071:0;nvim .config/picom/picom.conf
+: 1751237091:0;nvim ~/.config/picom/picom.conf
+: 1751237252:0;nvim ~/.config/i3/config
+: 1751237302:0;ps aux | grep picom
+: 1751237365:0;ps aux | grep picom\
+
+: 1751237369:0;reboot
+: 1751237501:0;ps aux | grep picom
+: 1751237507:0;picom --config ~/.config/picom/picom.conf
+: 1751237569:0;nvim ~/.config/picom/picom.conf
+: 1751237608:0;picom --config ~/.config/picom/picom.conf
+: 1751237671:0;nvim ~/.config/picom/picom.conf
+: 1751237692:0;picom --config ~/.config/picom/picom.conf
+: 1751237807:0;nvim ~/.config/picom/picom.conf
+: 1751237848:0;picom --experimental-backend --config $XDG_CONFIG_HOME/picom/picom.conf
+: 1751238380:0;ps aux | grep picom
+: 1751238390:0;whereis picom-trans
+: 1751238394:0;whereis picom
+: 1751238401:0;sudo rm /usr/local/bin/picom*
+: 1751238451:0;sudo pacman -S picom
+: 1751238460:0;picom --version
+: 1751238500:0;nvim ~/.config/picom/picom.conf
+: 1751238528:0;cat .config/picom/picom.conf
+: 1751238532:0;cat .config/picom/picom.conf | c
+: 1751238558:0;picom --version
+: 1751238638:0;nvim ~/.config/picom/picom.conf
+: 1751238676:0;pkill picom && picom --config ~/.config/picom/picom.conf &
+: 1751238685:0;ps aux | grep picom
+: 1751238691:0;ps aux | grep 
+: 1751238694:0;pkill picom && picom --config ~/.config/picom/picom.conf
+: 1751238697:0;ps aux | grep 
+: 1751238701:0;ps aux | grep picom
+: 1751238713:0;picom --config ~/.config/picom/picom.conf
+: 1751238738:0;nvim ~/.config/picom/picom.conf
+: 1751238866:0;picom --config ~/.config/picom/picom.conf
+: 1751238880:0;nvim ~/.config/picom/picom.conf
+: 1751238925:0;picom --config ~/.config/picom/picom.conf
+: 1751242842:0;sudo pacman -S noto-fonts-cjk
+: 1751242890:0;pkill librefox
+: 1751242901:0;pkill librewolf
+: 1751243131:0;bw get password myfiles | c
+: 1751243163:0;bw logout
+: 1751243269:0;nvim ~/.config/picom/picom.conf
+: 1751243439:0;mpv --no-border
+: 1751243452:0;mpv --no-border /shared/Videos/ExtraEmily.mp4
+: 1751243505:0;nvim ~/.config/picom/picom.conf
+: 1751263426:0;nvim ~/.config/systemd/user
+: 1751263472:0;nvim ~/.config/systemd/user/rclone-dropbox.service
+: 1751263503:0;nvim .local/bin/rclone-mount-dropbox
+: 1751263733:0;man rclone
+: 1751263891:0;rclone rc vfs/flush
+: 1751264015:0;systemctl --user daemon-reexec
+: 1751264020:0;systemctl --user daemon-reload
+: 1751264044:0;systemctl --user restart rclone-mount-dropbox.service
+: 1751264057:0;ls .config/systemd/user
+: 1751264081:0;systemctl --user restart rclone-dropbox.service
+: 1751264095:0;rclone rc vfs/flush
+: 1751264119:0;nvim .local/bin/rclone-mount-dropbox
+: 1751264136:0;man rclone
+: 1751264319:0;systemctl --user daemon-reexec
+: 1751264321:0;systemctl --user daemon-reload
+: 1751264325:0;systemctl --user restart rclone-mount-dropbox.service
+: 1751264331:0;systemctl --user restart rclone-dropbox.service
+: 1751264341:0;rclone rc vfs/flush
+: 1751264407:0;systemctl --user daemon-reexec
+: 1751264411:0;systemctl --user daemon-reload
+: 1751264413:0;systemctl --user restart rclone-dropbox.service
+: 1751264446:0;journalctl --user -fu rclone-dropbox.service
+: 1751346231:0;ytget https://www.youtube.com/watch\?v\=2lJdQ8hIQzs
+: 1751491664:0;cd code/stems
+: 1751491679:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ II\ \(Parlophone\ BM1\ Mono\ \&\ BC13\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/05\ And\ I\ Love\ Her\ \[Mono\].flac
+: 1751491684:0;source .venv/bin/activate
+: 1751491685:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ II\ \(Parlophone\ BM1\ Mono\ \&\ BC13\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/05\ And\ I\ Love\ Her\ \[Mono\].flac
+: 1751494431:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ II\ \(Parlophone\ BM1\ Mono\ \&\ BC13\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/18\ And\ I\ Love\ Her\ \[Stereo\].flac
+: 1751581988:0;
+: 1751494682:0;cd code/stems
+: 1751494700:0;source .venv/bin/activate
+: 1751494719:0;demucs /shared/Music/Podcast/15.\ And\ I\ Love\ Her\ \(2023\ Mix\).flac
+: 1751502327:0;cd ~/Desktop
+: 1751502328:0;ls
+: 1751503669:0;cd Desktop
+: 1751503777:0;ffmpeg -ss 00:14:30 -i The\ Devil\ and\ Daniel\ Johnston\ \(2006\)\ \{tmdb-13222\}\ \[Bluray-720p\ Proper\]\[DTS\ 5.1\]\[x264\]-dev0.mkv -t 90 -vn -acodec pcm_s16le -ar 44100 -ac 2 daniel.wav
+: 1751507961:0;ps aux 
+: 1751507966:0;ps aux | grep minecraft
+: 1751507988:0;pkill minecraft-launcher
+: 1751507997:0;pkill -f minecraft-launcher
+: 1751508003:0;ps aux | grep minecraft
+: 1751510858:0;cd ~/.mounts/dropbox/The\ Beatles\ Note\ By\ Note/058\ Tell\ Me\ Why/Lars
+: 1751510859:0;lss
+: 1751510860:0;ls
+: 1751510898:0;cd ~/.mounts/dropbox/The\ Beatles\ Note\ By\ Note/058\ Tell\ Me\ Why/Lars
+: 1751510909:0;mv note\ by\ note-tell\ me\ why-lars.m4a lars.m4a
+: 1751510932:0;ffmpeg -i lars.m4a -ar 44100 -ac 2 lars.wav
+: 1751511337:0;rm lars.m4a
+: 1751576526:0;clear
+: 1751576529:0;cd ~
+: 1751576530:0;ls
+: 1751576560:0;nvim ~/.config/nvim
+: 1751578464:0;clear
+: 1751580654:0;lsblk -f
+: 1751580681:0;sudo vim /etc/fstab
+: 1751580905:0;sudo cat /root/.vimrc
+: 1751580927:0;sudo ls /root/.config/vim
+: 1751580935:0;sudo nano /root/.vimrc
+: 1751580941:0;sudo vim /root/.vimrc
+: 1751580965:0;sudo vim /etc/fstab
+: 1751581008:0;sudo mount /shared
+: 1751581032:0;sudo systemctl daemon-reexec
+: 1751581038:0;sudo systemctl daemon-reload
+: 1751581049:0;sudo mount /shared
+: 1751581072:0;sudo mount -t ntfs3 /dev/nvme0n1p6 /shared
+: 1751581081:0;sudo mount -t ntfs -o uid=0,gid=0,iocharset=utf8 /dev/nvme0n1p6 /shared\
+
+: 1751581091:0;dmesg | tail -n 20
+: 1751581126:0;sudo dmesg | tail -n 20
+: 1751581158:0;reboot
+: 1751581657:0;sudo mount -t ntfs3 /dev/nvme0n1p6 /shared
+: 1751581663:0;ls /shared
+: 1751581714:0;sudo vim /etc/fstab
+: 1751581834:0;sudoedit /etc/fstab
+: 1751581860:0;echo $EDITOR
+: 1751581896:0;nvim ~/.config/zsh/.zshenv
+: 1751581955:0;source ~/.zshrc
+: 1751581963:0;ls -la
+: 1751581973:0;cat .zshenv
+: 1751581985:0;zsh exec
+: 1751581988:0;exec zsh
+: 1751581992:0;echo $EDITOR
+: 1751585693:0;cd code/stems
+: 1751585697:0;source .venv/bin/activate
+: 1751585710:0;demucs
+: 1751585756:0;democs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ \(Parlophone\ BM1\ Mono\ \&\ MFSL\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/19\ Tell\ Me\ Why\ \[Stereo\].flac
+: 1751585776:0;demucs /shared/Music/Beatles\ Bootlegs/Millennium\ Remasters/The\ Beatles\ UK\ Collection\ \(Parlophone\ BM1\ Mono\ \&\ MFSL\ Stereo\)\ 17\ CD\ Set/03\ A\ Hard\ Day_s\ Night\ \(Mono\ -\ Stereo\)/19\ Tell\ Me\ Why\ \[Stereo\].flac
+: 1751597033:0;cp .mounts/dropbox/The\ Beatles\ Note\ By\ Note/057\ And\ I\ Love\ Her/Gareth/Countdown.mov /shared/Music/Podcast
+: 1751597037:0;cd /shared/Music/Podcast
+: 1751597038:0;ls
+: 1751597066:0;ffmpeg -i Countdown.mov -vn -acodec pcm_s16le -ar 44100 -ac 2 dyaf.wav
+: 1751615354:0;nvim ~/.config/picom/picom.conf
+: 1751616399:0;.config/polybar/launch.sh\
+\
+
+: 1751617261:0;unzip The\ Beatles_\ Note\ By\ Note-20250625T042918Z-1-001.zip -d NoteByNoteDrive
+: 1751617272:0;.config/polybar/launch.sh\
+\
+
+: 1751644347:0;cd /shared/Music/Beatles\ Bootlegs
+: 1751644368:0;fd "from us to you"
+: 1751644376:0;fzf "from us to you"
+: 1751644380:0;fzf
+: 1751644553:0;clear
+: 1751644560:0;ytget https://www.youtube.com/watch\?v\=QG9zHpjCby0
+: 1751644582:0;whereis ytget
+: 1751644591:0;cd /home/krosewall/.local/bin
+: 1751644595:0;ls -la ytget
+: 1751644601:0;nvim ytget
+: 1751644612:0;yt-dlp
+: 1751644620:0;whereis yt-dlp
+: 1751644636:0;update-arch
+: 1751644791:0;nvim update-arch
+: 1751644831:0;update-arch
+: 1751644876:0;nvim update-arch
+: 1751644953:0;sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+: 1751644971:0;sudo pacman -S reflector
+: 1751644977:0;sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+: 1751645047:0;head -n 20 /etc/pacman.d/mirrorlist\
+
+: 1751645077:0;sudo pacman -S rsync
+: 1751645109:0;pacman -Qo /usr/lib/firmware/nvidia/ad103
+: 1751645134:0;sudo pacman -R linux-firmware
+: 1751645174:0;update-arch
+: 1751645385:0;cat update-arch
+: 1751645389:0;cat update-arch|c
+: 1751645396:0;ytget https://www.youtube.com/watch\?v\=QG9zHpjCby0
+: 1751645411:0;nvim update-arch
+: 1751645490:0;cd ~
+: 1751651167:0;ps aux | grep alacritty
+: 1751651176:0;alacrytti
+: 1751651183:0;alacritty
+: 1751651327:0;alacritty -e ~/.config/alacritty/alacritty.toml
+: 1751651349:0;alacritty -e ~/.config/alacritty/alacritty.toml | c
+: 1751651416:0;alacritty --config-file /dev/lnull
+: 1751651502:0;thestty
+: 1751651509:0;stty erase '^?'
+: 1751651535:0;e
+: 1751651537:0;cat
+: 1751651581:0;xterm -name cleanterm -xrm 'XTerm.vt100.backarrowKey: true'
+: 1751651609:0;nvim ~/.Xresources
+: 1751651639:0;exit
+: 1751651679:0;xrdb -merge ~/.Xresources
+: 1751651700:0;alacritty --config-file /dev/null
+: 1751651756:0;LIBGL_ALWAYS_SOFTWARE=1 alacritty
+: 1751651775:0;LIBGL_ALWAYS_SOFTWARE=1 alacritty --config-file /dev/null
+: 1751651829:0;fc-list : family | grep -i monospace
+: 1751651845:0;alacritty --print-events --print-logs
+: 1751651856:0;alacritty --print-events
+: 1751651906:0;sudo pacman -S kitty
+: 1751651909:0;exit
+: 1751651921:0;kitty
+: 1751652031:0;reboot
+: 1751653397:0;ytget https://www.youtube.com/watch\?v\=ALR13MJLAs4
+: 1751676312:0;ls .local/bin
+: 1751676318:0;aout
+: 1751676323:0;aout audiobox_out_78
+: 1751676353:0;nvim .config/polybar/config.ini
+: 1751676388:0;.config/polybar/launch.sh
+: 1751676406:0;nvim .config/polybar/config.ini
+: 1751676480:0;.config/polybar/launch.sh
+: 1751758119:0;nvim .local/share/Cryptomator/mnt/My\ Files/Tumblr/fiona-18
+: 1751822819:0;aout audiobox_out_78
+: 1751823850:0;aout audiobox_out_12
+: 1751823856:0;aout audiobox_out_78
+: 1751823884:0;nvim .local/bin/aout
+: 1751823897:0;man wpctl
+: 1751823898:0;nvim .local/bin/aout
+: 1751823905:0;wpctl
+: 1751823910:0;wpctl -h
+: 1751823924:0;nvim .local/bin/aout
+: 1751823937:0;wpctl new-default -h
+: 1751823963:0;systemctl --user restart pipewire wireplumber
+: 1751826905:0;aout audiobox_out_12
+: 1751826907:0;systemctl --user restart pipewire wireplumber
+: 1751827290:0;aout audiobox_out_78
+: 1751827292:0;systemctl --user restart pipewire wireplumber
+: 1751827297:0;aout audiobox_out_78
+: 1751827310:0;systemctl --user restart pipewire wireplumber
+: 1751827312:0;aout audiobox_out_78
+: 1751830239:0;aout audiobox_out_12
+: 1751830242:0;systemctl --user restart pipewire wireplumber
+: 1751868140:0;clear
+: 1751868325:0;cd dotfiles
+: 1751868331:0;ls -la
+: 1751868352:0;rm .chezmoi.toml
+: 1751868357:0;ls .config
+: 1751868362:0;rm -rf .config
+: 1751868367:0;ls -la
+: 1751868371:0;cat .gitignore
+: 1751868377:0;rm install.sh
+: 1751868379:0;ls .local
+: 1751868382:0;ls .local/bin
+: 1751868394:0;rm -rf .local
+: 1751868398:0;ls -la
+: 1751868400:0;pwd
+: 1751868405:0;nvim .
+: 1751870194:0;cd ..
+: 1751870197:0;rm -rf dotfiles
+: 1751870204:0;chezmoi init kenyon-rosewall
+: 1751870232:0;rm -rf ~/.local/share/chezmoi
+: 1751870239:0;chezmoi init kenyon-rosewall
+: 1751870279:0;ls .gitconfig
+: 1751870283:0;cat .gitconfig
+: 1751870288:0;ls -la
+: 1751870378:0;chezmoi add ~/.config/git/config
+: 1751870395:0;chezmoi add ~/.gitconfig
+: 1751870475:0;chezmoi forget ~/.gitconfig
+: 1751870485:0;ls .gitconfig
+: 1751870526:0;chezmoi cd
+: 1751870532:0;mkdir -p scripts
+: 1751870546:0;nvim run_once_link-gitconfig.sh.tmpl
+: 1751870600:0;chmod +x run_once_link-gitconfig.sh.tmpl
+: 1751870783:0;ls ~/.config
+: 1751870828:0;nvim ~/.config/Plexamp
+: 1751870970:0;z
+: 1751870984:0;chezmoi git commit -am "Init" && chezmoi git push
+: 1751871236:0;chezmoi git commit -m "Init" && chezmoi git push
+: 1751871245:0;chezmoi git commit
+: 1751871388:0;chezmoi git -- commit -m "Init"
+: 1751871403:0;chezmoi git add .
+: 1751871414:0;chezmoi git -- commit -m "Init"
+: 1751871422:0;chezmoi git -- push
+: 1751871486:0;chezmoi git push
+: 1751871699:0;chezmoi git remote set-url origin git@github.com:kenyon-rosewall/dotfiles.git
+: 1751871713:0;chezmoi git remote -v
+: 1751871738:0;chezmoi cd
+: 1751871741:0;git remote -v
+: 1751871758:0;git push
+: 1751871875:0;z
+: 1751871883:0;chezmoi add ~/.config/vim
+: 1751871891:0;chezmoi apply
+: 1751871902:0;chezmoi cd 
+: 1751871913:0;nvim run_once_install-vim.sh.tmpl
+: 1751872232:0;ls
+: 1751872239:0;cd scripts/
+: 1751872239:0;ls
+: 1751872243:0;cd ..
+: 1751872251:0;mv run_once_link-gitconfig.sh.tmpl scripts
+: 1751872254:0;/-
+: 1751872258:0;ls
+: 1751872278:0;nvim scripts/run_once_install-vim.sh.tmpl.tmpl
+: 1751872510:0;chezmoi add ~/.config/tmux
+: 1751872564:0;cat ~/.tmux.conf
+: 1751872575:0;ls -l ~/.tmux.conf
+: 1751872637:0;nvim scripts/run_once_link-tmux.sh.tmpl
+: 1751872728:0;mv scripts/run_once_link-gitconfig.sh.tmpl scripts/run_once_link-gitconfig.sh.tmpl.tmpl
+: 1751872738:0;nvim scripts/run_once_link-gitconfig.sh.tmpl.tmpl
+: 1751872769:0;mv scripts/run_once_link-gitconfig.sh.tmpl.tmpl scripts/run_once_link-gitconfig.sh.tmpl
+: 1751872784:0;nvim scripts/run_once_link-tmux.sh.tmpl.tmpl
+: 1751874335:0;nvim .
+: 1751874997:0;ls -l ~/.vim*
+: 1751875028:0;cat ~/.vimrc
+: 1751875035:0;cat ~/.viminfo
+: 1751875056:0;chmod +x scripts/run_once_before_destroy-conflicts.sh.tmpl
+: 1751875063:0;ls
+: 1751875065:0;ls private_dot_config
+: 1751875086:0;chezmoi add ~/.config/alacritty
+: 1751875093:0;git add .
+: 1751875103:0;git commit -m "vim tmux alacritty"
+: 1751875105:0;git push
+: 1751875265:0;ls scripts
+: 1751937382:0;chezmoi forget ~/.config/vim/.netrwhist
+: 1751937439:0;chezmoi forget ~/.config/alacritty/colors.toml
+: 1751937448:0;chezmoi apply
+: 1751937476:0;nvim scripts/run_once_before_destroy-conflicts.sh.tmpl
+: 1751937501:0;chezmoi apply
+: 1751937535:0;ls -la ~/.config/vim
+: 1751937545:0;ls -la ~/.config/alacritty
+: 1751937569:0;ls private_dot_config
+: 1751937574:0;ls private_dot_config/alacritty
+: 1751937582:0;rm ~/.config/alacritty/colors.toml
+: 1751937597:0;chezmoi edit ~/.config/alacritty/alacritty.toml
+: 1751937640:0;chezmoi edit ~/.config/git/config
+: 1751937873:0;git status
+: 1751939003:0;z
+: 1751939014:0;ls .viminfo
+: 1751939017:0;cat .viminfo
+: 1751939055:0;ls
+: 1751939060:0;cat .vimrc
+: 1751939103:0;ls -la .vim
+: 1751940193:0;has('nvim')
+: 1751940212:0;if has('nvim')\
+set nocp\
+fi
+: 1751940352:0;nvim .config/nvim/init.lua
+: 1751940393:0;$(basename -- "$0")
+: 1751940395:0;basename
+: 1751940399:0;basename -- 
+: 1751940402:0;basename -- $0
+: 1751940435:0;vim .config/zsh/.zshenv
+: 1751940535:0;rm -rf ~/.vim*
+: 1751940539:0;ls -la .vim*
+: 1751940548:0;vim .config/zsh/.zshenv
+: 1751940563:0;ls -la .vim*
+: 1751940583:0;echo "$VIMINIT"
+: 1751940595:0;exec zsh
+: 1751940599:0;vim .config/zsh/.zshenv
+: 1751940607:0;ls -la .vim*
+: 1751940613:0;echo "$VIMINIT"
+: 1751940619:0;echo "$NVIM"
+: 1751940630:0;vim .config/zsh/.zshenv
+: 1751940655:0;nvim .config/zsh/.zshenv
+: 1751940798:0;strace -e openat vim -c ':' 2>&1 | grep -E 'vimrc|viminfo'
+: 1751940811:0;strace -e openat vim -c ':q' 2>&1 | grep -E 'vimrc|viminfo'
+: 1751941416:0;vim .config/nvim/init.lua
+: 1751941427:0;vim .config/zsh/.zshenv
+: 1751941464:0;vim .config/zsh/.zshrc
+: 1751941665:0;vim .config/zsh/.zshenv
+: 1751941674:0;exec zsh
+: 1751941679:0;export VIMINIT
+: 1751941688:0;echo "$VIMINIT"
+: 1751941700:0;vim .config/zsh/.zshenv
+: 1751941711:0;ls ~/.vim*
+: 1751941725:0;nvim .config/zsh/.zshenv
+: 1751941739:0;echo "$VIMINIT"
+: 1751941767:0;nvim .config/nvim/init.lua
+: 1751941842:0;chezmoi diff
+: 1751941864:0;chezmoi cd
+: 1751941866:0;git status
+: 1751941870:0;git add .
+: 1751941887:0;git commit -m "Updating things to be a little more universal for core configs"
+: 1751941945:0;nvim scripts/run_once_setup-vim.sh
+: 1751942161:0;chmod +x scripts/run_once_setup-vim.sh
+: 1751942167:0;git add .
+: 1751942187:0;git commit -m "Create essential vim directories"
+: 1751942190:0;git push
+: 1751942202:0;z
+: 1751942206:0;ls .z*
+: 1751942212:0;cat .zshenv
+: 1751942251:0;ls .config/zsh
+: 1751942313:0;chezmoi add ~/.config/zsh

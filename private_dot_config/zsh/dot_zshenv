@@ -1,0 +1,48 @@
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
+# Path
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$HOME/.yarn-global/bin:$PATH"
+
+# Defaults
+export EDITOR=vim
+export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
+
+# Themes and toolkit settings
+export QT_QPA_PLATFORMTHEME="qt5ct"
+export GTK_THEME="Adwaita:dark"
+export GTK_STYLE_OVERRIDE="Adwaita:dark"
+export XCURSOR_THEME="Adwaita-dark"
+
+# Session metadata
+export XDG_SESSION_TYPE="x11"
+export XDG_CURRENT_DESKTOP="i3"
+export XDG_SESSION_DESKTOP="i3"
+
+# History config
+export HISTFILE="$ZDOTDIR/.zsh_history"
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HSTS_FILE="$XDG_STATE_HOME/wget/hsts"
+export LESSHISTFILE="$XDG_STATE_HOME/less/history"
+export PYTHONHISTFILE="$XDG_STATE_HOME/python/history"
+export PYTHON_HISTORY="$XDG_STATE_HOME/python/history"
+
+# Dev tool config
+
+# Vst3 plugin paths
+export VST3_USER_LOCATION="$XDG_DATA_HOME/vst3"
+export VST3_PLUGINS_DIR="$XDG_DATA_HOME/vst3"
+
+# asdf
+export ASDF_DIR="$HOME/.asdf"
+. "$ASDF_DIR/asdf.sh"
+
+# ranger
+export RANGER_LOAD_DEFAULT_RC=false
+
